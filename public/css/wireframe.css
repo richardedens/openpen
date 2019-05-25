@@ -1,0 +1,114 @@
+.page {
+    width: 640px;
+    height: 480px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* login */
+.username-label {
+    position: absolute;
+    left: 20px;
+    top: 300px;
+    font-size: 11px;
+}
+
+.username-field {
+    position: absolute;
+    left: 20px;
+    top: 320px;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+}
+
+.password-label {
+    position: absolute;
+    left: 20px;
+    top: 340px;
+    font-size: 11px;
+}
+
+.password-field {
+    position: absolute;
+    left: 20px;
+    top: 360px;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+}
+
+.login-button {
+    position: absolute;
+    left: 120px;
+    top: 390px;
+    border: 1px solid black;
+    width: 50px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+/* homepage */
+.homepage-label {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    font-size: 11px;
+}
+.role-label {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    font-size: 14px;
+}
+
+/* workflow */
+.workflow-container {
+    margin: 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: white;
+    width: 1024px;
+    height: 100px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.start-element {
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+}
+
+.action-element {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.stop-element {
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+}
+
+.codeToCompile {
+    margin-left:40px;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+
+#compiledState {
+    margin-bottom: 50px;
+}
+
+/* Visual Studio Code */
+#codeEditor {
+    border: none;
+    height: 100%;
+    width: 100%;
+}
