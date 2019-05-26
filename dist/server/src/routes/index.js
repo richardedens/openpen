@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var homepage_1 = require("./homepage");
+var signin_1 = require("./signin");
+var auth_1 = require("./auth");
+var vs_1 = require("./vs");
+var user_1 = require("./user");
+var bpmn_1 = require("./bpmn");
+var mendix_1 = require("./mendix");
+var dashboard_1 = require("./dashboard");
+var routes = express_1.Router();
+routes.use("/", homepage_1.default);
+routes.use("/signin", signin_1.default);
+routes.use("/auth", auth_1.default);
+routes.use("/user", user_1.default);
+routes.use("/bpmn", bpmn_1.default);
+routes.use("/mendix", mendix_1.default);
+routes.use("/vs", vs_1.default);
+routes.use("/dashboard", dashboard_1.default);
+exports.default = routes;
+//# sourceMappingURL=index.js.map
