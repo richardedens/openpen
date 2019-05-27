@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import { createConnection } from "typeorm";
 import * as express from "express";
-import * as https from "https";
+import * as http from "http";
 import * as fs from "fs";
 import * as bodyParser from "body-parser";
 import * as createError from "http-errors";
@@ -69,12 +69,9 @@ createConnection().then(async connection => {
 
 	// Set port
 	let port = process.env.PORT || 3000;
-	https.createServer({
-		key: fs.readFileSync("ssl/server.key"),
-		cert: fs.readFileSync("ssl/server.crt")
-	}, app).listen(port, () => {
-		intro.show("Ultronic Process", () => {
-			console.log("Server Running on https://localhost:" + port);
+	http.createServer(app).listen(port, () => {
+		intro.show("OpenPEN", () => {
+			console.log("Server Running on http://localhost:" + port);
 		});
 	})
 

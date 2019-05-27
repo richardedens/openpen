@@ -39,8 +39,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 require("reflect-metadata");
 var typeorm_1 = require("typeorm");
 var express = require("express");
-var https = require("https");
-var fs = require("fs");
+var http = require("http");
 var bodyParser = require("body-parser");
 var createError = require("http-errors");
 var path = require("path");
@@ -96,12 +95,9 @@ typeorm_1.createConnection().then(function (connection) { return __awaiter(_this
             res.render('error');
         });
         port = process.env.PORT || 3000;
-        https.createServer({
-            key: fs.readFileSync("ssl/server.key"),
-            cert: fs.readFileSync("ssl/server.crt")
-        }, app).listen(port, function () {
-            intro.show("Ultronic Process", function () {
-                console.log("Server Running on https://localhost:" + port);
+        http.createServer(app).listen(port, function () {
+            intro.show("OpenPEN", function () {
+                console.log("Server Running on http://localhost:" + port);
             });
         });
         return [2 /*return*/];
