@@ -1,8 +1,10 @@
 {
-    "type": "mongodb",
-    "database": "ultronicprogressmanager",
+    "type": "mysql",
+    "database": "openpen",
     "synchronize": true,
     "logging": false,
+    "username": "root",
+    "password": "3RD&4rd=5rd",
     "entities": [
        "src/entity/**/*.ts"
     ],
