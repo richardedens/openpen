@@ -732,7 +732,7 @@
     var mark = cm.markText(Pos(from, 0), Pos(to - 1), {
       inclusiveLeft: true,
       inclusiveRight: true,
-      replacedWith: widget,
+      replaOpenPENWith: widget,
       clearOnEnter: true
     });
     function clear() {

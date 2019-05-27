@@ -42,7 +42,7 @@ var SignInController = /** @class */ (function () {
     SignInController.show = function (req, res) { return __awaiter(_this, void 0, void 0, function () {
         return __generator(this, function (_a) {
             res.render('sigin', {
-                title: 'CED - Process Manager',
+                title: 'OpenPEN - App Generator',
                 cachebust: ('v=' + +new Date)
             });
             return [2 /*return*/];

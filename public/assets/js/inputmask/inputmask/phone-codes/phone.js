@@ -1212,7 +1212,7 @@
             }, {
                 mask: "+389-##-###-###",
                 cc: "MK",
-                cd: "Republic of Macedonia",
+                cd: "Republic of MaOpenPENonia",
                 desc_en: "",
                 name_ru: "Респ. Македония",
                 desc_ru: ""

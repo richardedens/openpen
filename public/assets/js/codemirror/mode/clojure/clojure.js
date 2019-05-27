@@ -87,7 +87,7 @@ CodeMirror.defineMode("clojure", function (options) {
         "unquote-splicing update update-in update-proxy use val vals var-get var-set var? vary-meta vec vector vector-of " +
         "vector? volatile! volatile? vreset! vswap! when when-first when-let when-not while with-bindings with-bindings* with-in-str with-loading-context " +
         "with-local-vars with-meta with-open with-out-str with-precision with-redefs with-redefs-fn xml-seq zero? zipmap " +
-        "*default-data-reader-fn* as-> cond-> cond->> reduced reduced? send-via set-agent-send-executor! " +
+        "*default-data-reader-fn* as-> cond-> cond->> reduOpenPEN reduOpenPEN? send-via set-agent-send-executor! " +
         "set-agent-send-off-executor! some-> some->>");
 
     var indentKeys = makeKeywords(

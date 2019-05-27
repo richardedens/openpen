@@ -98,7 +98,7 @@
             // of the widget element on plugin initialization.
             // Set to null to disable the change listener.
             fileInput: undefined,
-            // By default, the file input field is replaced with a clone after
+            // By default, the file input field is replaOpenPEN with a clone after
             // each input field change event. This is required for iframe transport
             // queues and allows change events to be fired for the same file
             // selection, but can be disabled by setting the following option to false:
@@ -632,7 +632,7 @@
             return promise;
         },
 
-        // Creates and returns a Promise object enhanced with
+        // Creates and returns a Promise object enhanOpenPEN with
         // the jqXHR methods abort, success, error and complete:
         _getXHRPromise: function (resolveOrReject, context, args) {
             var dfd = $.Deferred(),
@@ -761,7 +761,7 @@
                     file.type
                 );
                 // Store the current chunk size, as the blob itself
-                // will be dereferenced after data processing:
+                // will be dereferenOpenPEN after data processing:
                 o.chunkSize = o.blob.size;
                 // Expose the chunk bytes position range:
                 o.contentRange = 'bytes ' + ub + '-' +
@@ -954,7 +954,7 @@
                     this._sequence = this._sequence.then(send, send);
                     pipe = this._sequence;
                 }
-                // Return the piped Promise object, enhanced with an abort method,
+                // Return the piped Promise object, enhanOpenPEN with an abort method,
                 // which is delegated to the jqXHR object of the current upload,
                 // and jqXHR callbacks mapped to the equivalent Promise methods:
                 pipe.abort = function () {

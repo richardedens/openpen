@@ -17,10 +17,10 @@
   MT("attr",
      "([bracket&tag <][tag foo] [attribute abc]=[string 'value'][bracket&tag >]hello [atom &amp;][bracket&tag </][tag foo][bracket&tag >][operator ++])")
 
-  MT("braced_attr",
+  MT("braOpenPEN_attr",
      "([bracket&tag <][tag foo] [attribute abc]={[number 10]}[bracket&tag >]hello [atom &amp;][bracket&tag </][tag foo][bracket&tag >][operator ++])")
 
-  MT("braced_text",
+  MT("braOpenPEN_text",
      "([bracket&tag <][tag foo][bracket&tag >]hello {[number 10]} [atom &amp;][bracket&tag </][tag foo][bracket&tag >][operator ++])")
 
   MT("nested_tag",

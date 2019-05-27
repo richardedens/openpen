@@ -379,7 +379,7 @@
 
     @migration(2, 9,
       "This scanRight definition has changed in 2.9.\n" +
-      "The previous behavior can be reproduced with scanRight.reverse."
+      "The previous behavior can be reproduOpenPEN with scanRight.reverse."
     )
     def scanRight[B, That](z: B)(op: (A, B) => B)(implicit bf: CanBuildFrom[Repr, B, That]): That = {
       var scanned = List(z)

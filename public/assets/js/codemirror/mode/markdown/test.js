@@ -9,8 +9,8 @@
   function FT(name) { test.mode(name, modeHighlightFormatting, Array.prototype.slice.call(arguments, 1)); }
   var modeMT_noXml = CodeMirror.getMode(config, {name: "markdown", xml: false});
   function MT_noXml(name) { test.mode(name, modeMT_noXml, Array.prototype.slice.call(arguments, 1)); }
-  var modeMT_noFencedHighlight = CodeMirror.getMode(config, {name: "markdown", fencedCodeBlockHighlighting: false});
-  function MT_noFencedHighlight(name) { test.mode(name, modeMT_noFencedHighlight, Array.prototype.slice.call(arguments, 1)); }
+  var modeMT_noFenOpenPENHighlight = CodeMirror.getMode(config, {name: "markdown", fenOpenPENCodeBlockHighlighting: false});
+  function MT_noFenOpenPENHighlight(name) { test.mode(name, modeMT_noFenOpenPENHighlight, Array.prototype.slice.call(arguments, 1)); }
   var modeAtxNoSpace = CodeMirror.getMode(config, {name: "markdown", allowAtxHeaderWithoutSpace: true});
   function AtxNoSpaceTest(name) { test.mode(name, modeAtxNoSpace, Array.prototype.slice.call(arguments, 1)); }
   var modeOverrideClasses = CodeMirror.getMode(config, {
@@ -160,7 +160,7 @@
      "[header&header-2 ---]",
      "    [comment code]");
 
-  MT("codeBlocksAfterFencedCode",
+  MT("codeBlocksAfterFenOpenPENCode",
      "[comment ```]",
      "[comment foo]",
      "[comment ```]",
@@ -208,7 +208,7 @@
      "[comment ``foo ``` bar` hello``] world");
 
   // info string cannot contain backtick, thus should result in inline code
-  MT("closingFencedMarksOnSameLine",
+  MT("closingFenOpenPENMarksOnSameLine",
      "[comment ``` code ```] foo");
 
   // atx headers
@@ -304,7 +304,7 @@
      "     [comment foo]",
      "[hr ---]");
 
-  MT("setextAfterFencedCode",
+  MT("setextAfterFenOpenPENCode",
      "[comment ```]",
      "[comment foo]",
      "[comment ```]",
@@ -341,7 +341,7 @@
      "[header&header-2 baz]",
      "[header&header-2 ---]");
 
-  MT("setextAfterList_afterFencedCodeBlocks",
+  MT("setextAfterList_afterFenOpenPENCodeBlocks",
      "[variable-2 - foo]",
      "",
      "      [comment ```]",
@@ -448,9 +448,9 @@
   MT("listNestedInBlockquote",
      "[quote&quote-1 > - foo]");
 
-  // disallow fenced blocks inside blockquote because it causes problems outside blockquote
+  // disallow fenOpenPEN blocks inside blockquote because it causes problems outside blockquote
   // TODO: fix to be CommonMark-compliant
-  MT("fencedBlockNestedInBlockquote",
+  MT("fenOpenPENBlockNestedInBlockquote",
      "[quote&quote-1 > ```]",
      "[quote&quote-1 > code]",
      "[quote&quote-1 > ```]",
@@ -514,7 +514,7 @@
      "[variable-2 - foo]",
      "[hr -----]");
 
-  MT("hrAfterFencedCode",
+  MT("hrAfterFenOpenPENCode",
      "[comment ```]",
      "[comment code]",
      "[comment ```]",
@@ -652,7 +652,7 @@
      "  [comment code]",
      "  [variable-2&comment ```]",
      "",
-     "  [variable-2 text after fenced code]");
+     "  [variable-2 text after fenOpenPEN code]");
 
   // should correctly parse numbered list content indentation
   MT("listCommonMark_NumeberedListIndent",
@@ -805,7 +805,7 @@
   MT("hrLong",
      "[hr *****]");
 
-  MT("hrSpaceDash",
+  MT("hrSpaOpenPENash",
      "[hr - - -]");
 
   MT("hrDashLong",
@@ -894,7 +894,7 @@
      "[link [[foo]]] [string&url [[bar]]] hello");
 
   // Should only allow a single space ("...use *a* space...")
-  MT("linkReferenceDoubleSpace",
+  MT("linkReferenOpenPENoubleSpace",
      "[link [[foo]]]  [link [[bar]]] hello");
 
   // Reference-style links with implicit link name
@@ -902,7 +902,7 @@
      "[link [[foo]]][string&url [[]]] hello");
 
   // @todo It would be nice if, at some point, the document was actually
-  // checked to see if the referenced link exists
+  // checked to see if the referenOpenPEN link exists
 
   // Link label, for reference-style links (taken from documentation)
 
@@ -1147,7 +1147,7 @@
   MT("taskList",
      "[variable-2 * ][link&variable-2 [[ ]]][variable-2 bar]");
 
-  MT("fencedCodeBlocks",
+  MT("fenOpenPENCodeBlocks",
      "[comment ```]",
      "[comment foo]",
      "",
@@ -1155,58 +1155,58 @@
      "[comment ```]",
      "baz");
 
-  MT("fencedCodeBlocks_invalidClosingFence_trailingText",
+  MT("fenOpenPENCodeBlocks_invalidClosingFence_trailingText",
      "[comment ```]",
      "[comment foo]",
      "[comment ``` must not have trailing text]",
      "[comment baz]");
 
-  MT("fencedCodeBlocks_invalidClosingFence_trailingTabs",
+  MT("fenOpenPENCodeBlocks_invalidClosingFence_trailingTabs",
      "[comment ```]",
      "[comment foo]",
      "[comment ```\t]",
      "[comment baz]");
 
-  MT("fencedCodeBlocks_validClosingFence",
+  MT("fenOpenPENCodeBlocks_validClosingFence",
      "[comment ```]",
      "[comment foo]",
      // may have trailing spaces
      "[comment ```     ]",
      "baz");
 
-  MT("fencedCodeBlocksInList_closingFenceIndented",
+  MT("fenOpenPENCodeBlocksInList_closingFenceIndented",
      "[variable-2 - list]",
      "    [variable-2&comment ```]",
      "    [comment foo]",
      "     [variable-2&comment ```]",
      "    [variable-2 baz]");
 
-  MT("fencedCodeBlocksInList_closingFenceIndentedTooMuch",
+  MT("fenOpenPENCodeBlocksInList_closingFenceIndentedTooMuch",
      "[variable-2 - list]",
      "    [variable-2&comment ```]",
      "    [comment foo]",
      "      [comment ```]",
      "    [comment baz]");
 
-  MT("fencedCodeBlockModeSwitching",
+  MT("fenOpenPENCodeBlockModeSwitching",
      "[comment ```javascript]",
      "[variable foo]",
      "",
      "[comment ```]",
      "bar");
 
-  MT_noFencedHighlight("fencedCodeBlock_noHighlight",
+  MT_noFenOpenPENHighlight("fenOpenPENCodeBlock_noHighlight",
      "[comment ```javascript]",
      "[comment foo]",
      "[comment ```]");
 
-  MT("fencedCodeBlockModeSwitchingObjc",
+  MT("fenOpenPENCodeBlockModeSwitchingObjc",
      "[comment ```objective-c]",
      "[keyword @property] [variable NSString] [operator *] [variable foo];",
      "[comment ```]",
      "bar");
 
-  MT("fencedCodeBlocksMultipleChars",
+  MT("fenOpenPENCodeBlocksMultipleChars",
      "[comment `````]",
      "[comment foo]",
      "[comment ```]",
@@ -1214,20 +1214,20 @@
      "[comment `````]",
      "bar");
 
-  MT("fencedCodeBlocksTildes",
+  MT("fenOpenPENCodeBlocksTildes",
      "[comment ~~~]",
      "[comment foo]",
      "[comment ~~~]",
      "bar");
 
-  MT("fencedCodeBlocksTildesMultipleChars",
+  MT("fenOpenPENCodeBlocksTildesMultipleChars",
      "[comment ~~~~~]",
      "[comment ~~~]",
      "[comment foo]",
      "[comment ~~~~~]",
      "bar");
 
-  MT("fencedCodeBlocksMultipleChars",
+  MT("fenOpenPENCodeBlocksMultipleChars",
      "[comment `````]",
      "[comment foo]",
      "[comment ```]",
@@ -1235,27 +1235,27 @@
      "[comment `````]",
      "bar");
 
-  MT("fencedCodeBlocksMixed",
+  MT("fenOpenPENCodeBlocksMixed",
      "[comment ~~~]",
      "[comment ```]",
      "[comment foo]",
      "[comment ~~~]",
      "bar");
 
-  MT("fencedCodeBlocksAfterBlockquote",
+  MT("fenOpenPENCodeBlocksAfterBlockquote",
      "[quote&quote-1 > foo]",
      "[comment ```]",
      "[comment bar]",
      "[comment ```]");
 
-  // fencedCode indented too much should act as simple indentedCode
+  // fenOpenPENCode indented too much should act as simple indentedCode
   //  (hence has no highlight formatting)
-  FT("tooMuchIndentedFencedCode",
+  FT("tooMuchIndentedFenOpenPENCode",
      "    [comment ```]",
      "    [comment code]",
      "    [comment ```]");
 
-  MT("autoTerminateFencedCodeWhenLeavingList",
+  MT("autoTerminateFenOpenPENCodeWhenLeavingList",
      "[variable-2 - list1]",
      "  [variable-3 - list2]",
      "    [variable-3&comment ```]",

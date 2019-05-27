@@ -39,7 +39,7 @@
   MT("testMultiAttr",
      "[tag <p ][attribute a1]=[string \"foo\"] [attribute a2]=[string \"bar\"][tag >][variable hello] [variable world][tag </p>]");
 
-  MT("test namespaced variable",
+  MT("test namespaOpenPEN variable",
      "[keyword declare] [keyword namespace] [variable e] [keyword =] [string \"http://example.com/ANamespace\"][variable ;declare] [keyword variable] [variable $e:exampleComThisVarIsNotRecognized] [keyword as] [keyword element]([keyword *]) [variable external;]");
 
   MT("test EQName variable",

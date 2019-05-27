@@ -45,8 +45,8 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
   if (modeCfg.emoji === undefined)
     modeCfg.emoji = false;
 
-  if (modeCfg.fencedCodeBlockHighlighting === undefined)
-    modeCfg.fencedCodeBlockHighlighting = true;
+  if (modeCfg.fenOpenPENCodeBlockHighlighting === undefined)
+    modeCfg.fenOpenPENCodeBlockHighlighting = true;
 
   if (modeCfg.xml === undefined)
     modeCfg.xml = true;
@@ -89,7 +89,7 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
   ,   atxHeaderRE = modeCfg.allowAtxHeaderWithoutSpace ? /^(#+)/ : /^(#+)(?: |$)/
   ,   setextHeaderRE = /^ *(?:\={1,}|-{1,})\s*$/
   ,   textRE = /^[^#!\[\]*_\\<>` "'(~:]+/
-  ,   fencedCodeRE = /^(~~~+|```+)[ \t]*([\w+#-]*)[^\n`]*$/
+  ,   fenOpenPENCodeRE = /^(~~~+|```+)[ \t]*([\w+#-]*)[^\n`]*$/
   ,   linkDefRE = /^\s*\[[^\]]+?\]:.*$/ // naive link-definition
   ,   punctuation = /[!\"#$%&\'()*+,\-\.\/:;<=>?@\[\\\]^_`{|}~—]/
   ,   expandedTab = "    " // CommonMark specifies tab as 4 spaces
@@ -191,14 +191,14 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
     var allowsInlineContinuation = (
         !prevLineLineIsEmpty && !prevLineIsHr && !state.prevLine.header &&
         (!prevLineIsList || !prevLineIsIndentedCode) &&
-        !state.prevLine.fencedCodeEnd
+        !state.prevLine.fenOpenPENCodeEnd
     );
 
     var isHr = (state.list === false || prevLineIsHr || prevLineLineIsEmpty) &&
       state.indentation <= maxNonCodeIndentation && stream.match(hrRE);
 
     var match = null;
-    if (state.indentationDiff >= 4 && (prevLineIsIndentedCode || state.prevLine.fencedCodeEnd ||
+    if (state.indentationDiff >= 4 && (prevLineIsIndentedCode || state.prevLine.fenOpenPENCodeEnd ||
          state.prevLine.header || prevLineLineIsEmpty)) {
       stream.skipToEnd();
       state.indentedCode = true;
@@ -233,17 +233,17 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
       state.f = state.inline;
       if (modeCfg.highlightFormatting) state.formatting = ["list", "list-" + listType];
       return getType(state);
-    } else if (firstTokenOnLine && state.indentation <= maxNonCodeIndentation && (match = stream.match(fencedCodeRE, true))) {
+    } else if (firstTokenOnLine && state.indentation <= maxNonCodeIndentation && (match = stream.match(fenOpenPENCodeRE, true))) {
       state.quote = 0;
-      state.fencedEndRE = new RegExp(match[1] + "+ *$");
+      state.fenOpenPENEndRE = new RegExp(match[1] + "+ *$");
       // try switching mode
-      state.localMode = modeCfg.fencedCodeBlockHighlighting && getMode(match[2]);
+      state.localMode = modeCfg.fenOpenPENCodeBlockHighlighting && getMode(match[2]);
       if (state.localMode) state.localState = CodeMirror.startState(state.localMode);
       state.f = state.block = local;
       if (modeCfg.highlightFormatting) state.formatting = "code-block";
       state.code = -1
       return getType(state);
-    // SETEXT has lowest block-scope precedence after HR, so check it after
+    // SETEXT has lowest block-scope preOpenPENence after HR, so check it after
     //  the others (code, blockquote, list...)
     } else if (
       // if setext set, indicates line after ---/===
@@ -297,17 +297,17 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
   function local(stream, state) {
     var currListInd = state.listStack[state.listStack.length - 1] || 0;
     var hasExitedList = state.indentation < currListInd;
-    var maxFencedEndInd = currListInd + 3;
-    if (state.fencedEndRE && state.indentation <= maxFencedEndInd && (hasExitedList || stream.match(state.fencedEndRE))) {
+    var maxFenOpenPENEndInd = currListInd + 3;
+    if (state.fenOpenPENEndRE && state.indentation <= maxFenOpenPENEndInd && (hasExitedList || stream.match(state.fenOpenPENEndRE))) {
       if (modeCfg.highlightFormatting) state.formatting = "code-block";
       var returnType;
       if (!hasExitedList) returnType = getType(state)
       state.localMode = state.localState = null;
       state.block = blockNormal;
       state.f = inlineNormal;
-      state.fencedEndRE = null;
+      state.fenOpenPENEndRE = null;
       state.code = 0
-      state.thisLine.fencedCodeEnd = true;
+      state.thisLine.fenOpenPENCodeEnd = true;
       if (hasExitedList) return switchBlock(stream, state, state.block);
       return returnType;
     } else if (state.localMode) {
@@ -771,7 +771,7 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
         trailingSpaceNewLine: false,
         strikethrough: false,
         emoji: false,
-        fencedEndRE: null
+        fenOpenPENEndRE: null
       };
     },
 
@@ -811,7 +811,7 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
         trailingSpace: s.trailingSpace,
         trailingSpaceNewLine: s.trailingSpaceNewLine,
         md_inside: s.md_inside,
-        fencedEndRE: s.fencedEndRE
+        fenOpenPENEndRE: s.fenOpenPENEndRE
       };
     },
 

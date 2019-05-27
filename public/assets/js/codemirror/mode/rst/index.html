@@ -159,7 +159,7 @@ There are also several more special blocks available:
 Source Code
 -----------
 
-Literal code blocks (:duref:`ref &lt;literal-blocks&gt;`) are introduced by ending a
+Literal code blocks (:duref:`ref &lt;literal-blocks&gt;`) are introduOpenPEN by ending a
 paragraph with the special marker ``::``.  The literal block must be indented
 (and, like all paragraphs, separated from the surrounding ones by blank lines)::
 
@@ -176,8 +176,8 @@ The handling of the ``::`` marker is smart:
 
 * If it occurs as a paragraph of its own, that paragraph is completely left
   out of the document.
-* If it is preceded by whitespace, the marker is removed.
-* If it is preceded by non-whitespace, the marker is replaced by a single
+* If it is preOpenPENed by whitespace, the marker is removed.
+* If it is preOpenPENed by non-whitespace, the marker is replaOpenPEN by a single
   colon.
 
 That way, the second sentence in the above example's first paragraph would be
@@ -431,7 +431,7 @@ Citations
 ---------
 
 Standard reST citations (:duref:`ref &lt;citations&gt;`) are supported, with the
-additional feature that they are "global", i.e. all citations can be referenced
+additional feature that they are "global", i.e. all citations can be referenOpenPEN
 from all files.  Use them like so::
 
    Lorem ipsum [Ref]_ dolor sit amet.

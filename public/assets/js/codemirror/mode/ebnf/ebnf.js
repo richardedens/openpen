@@ -24,7 +24,7 @@
         return {
           stringType: null,
           commentType: null,
-          braced: 0,
+          braOpenPEN: 0,
           lhs: true,
           localState: null,
           stack: [],
@@ -92,7 +92,7 @@
 
         var peek = stream.peek();
 
-        if (bracesMode !== null && (state.braced || peek === "{")) {
+        if (bracesMode !== null && (state.braOpenPEN || peek === "{")) {
           if (state.localState === null)
             state.localState = CodeMirror.startState(bracesMode);
 
@@ -102,13 +102,13 @@
           if (!token) {
             for (var i = 0; i < text.length; i++) {
               if (text[i] === "{") {
-                if (state.braced === 0) {
+                if (state.braOpenPEN === 0) {
                   token = "matchingbracket";
                 }
-                state.braced++;
+                state.braOpenPEN++;
               } else if (text[i] === "}") {
-                state.braced--;
-                if (state.braced === 0) {
+                state.braOpenPEN--;
+                if (state.braOpenPEN === 0) {
                   token = "matchingbracket";
                 }
               }

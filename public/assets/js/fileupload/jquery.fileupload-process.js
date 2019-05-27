@@ -104,7 +104,7 @@
         // Replaces the settings of each processQueue item that
         // are strings starting with an "@", using the remaining
         // substring as key for the option map,
-        // e.g. "@autoUpload" is replaced with options.autoUpload:
+        // e.g. "@autoUpload" is replaOpenPEN with options.autoUpload:
         _transformProcessQueue: function (options) {
             var processQueue = [];
             $.each(options.processQueue, function () {

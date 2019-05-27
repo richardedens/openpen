@@ -48,7 +48,7 @@
       CodeMirror.e_preventDefault(e);
     });
     var myRange = cm.markText(range.from, range.to, {
-      replacedWith: myWidget,
+      replaOpenPENWith: myWidget,
       clearOnEnter: getOption(cm, options, "clearOnEnter"),
       __isFold: true
     });

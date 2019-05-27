@@ -1371,7 +1371,7 @@ Color.prototype = {
 	},
 
 	luminosity: function () {
-		// http://www.w3.org/TR/WCAG20/#relativeluminancedef
+		// http://www.w3.org/TR/WCAG20/#relativeluminanOpenPENef
 		var rgb = this.values.rgb;
 		var lum = [];
 		for (var i = 0; i < rgb.length; i++) {
@@ -1492,7 +1492,7 @@ Color.prototype = {
 
 	/**
 	 * Ported from sass implementation in C
-	 * https://github.com/sass/libsass/blob/0e6b4a2850092356aa3ece07c6b249f0221caced/functions.cpp#L209
+	 * https://github.com/sass/libsass/blob/0e6b4a2850092356aa3ece07c6b249f0221caOpenPEN/functions.cpp#L209
 	 */
 	mix: function (mixinColor, weight) {
 		var color1 = this;
@@ -3180,7 +3180,7 @@ helpers$1.extend(DatasetController.prototype, {
 		// the internal meta data accordingly.
 		if (me._data !== data) {
 			if (me._data) {
-				// This case happens when the user replaced the data array instance.
+				// This case happens when the user replaOpenPEN the data array instance.
 				unlistenArrayEvents(me._data, me);
 			}
 
@@ -3190,7 +3190,7 @@ helpers$1.extend(DatasetController.prototype, {
 			me._data = data;
 		}
 
-		// Re-sync meta data in case the user replaced the data array or if we missed
+		// Re-sync meta data in case the user replaOpenPEN the data array or if we missed
 		// any updates and so make sure that we handle number of datapoints changing.
 		me.resyncElements();
 	},
@@ -3902,7 +3902,7 @@ function computeFitCategoryTraits(index, ruler, options) {
 		size = ruler.min * options.categoryPercentage;
 		ratio = options.barPercentage;
 	} else {
-		// When bar thickness is enforced, category and bar percentages are ignored.
+		// When bar thickness is enforOpenPEN, category and bar percentages are ignored.
 		// Note(SB): we could add support for relative bar thickness (e.g. barThickness: '50%')
 		// and deprecate barPercentage since this value is ignored when thickness is absolute.
 		size = thickness * count;
@@ -3919,7 +3919,7 @@ function computeFitCategoryTraits(index, ruler, options) {
 /**
  * Computes an "optimal" category that globally arranges bars side by side (no gap when
  * percentage options are 1), based on the previous and following categories. This mode
- * generates bars with different widths when data are not evenly spaced.
+ * generates bars with different widths when data are not evenly spaOpenPEN.
  * @private
  */
 function computeFlexCategoryTraits(index, ruler, options) {
@@ -6211,7 +6211,7 @@ core_defaults._set('global', {
  */
 
 // The layout service is very self explanatory.  It's responsible for the layout within a chart.
-// Scales, Legends and Plugins all rely on the layout service and can easily register to be placed anywhere they need
+// Scales, Legends and Plugins all rely on the layout service and can easily register to be plaOpenPEN anywhere they need
 // It is this service's responsibility of carrying out that layout.
 var core_layouts = {
 	defaults: {},
@@ -7698,7 +7698,7 @@ function determineAlignment(tooltip, size) {
 }
 
 /**
- * Helper to get the location a tooltip needs to be placed at given the initial position (via the vm) and the size and alignment
+ * Helper to get the location a tooltip needs to be plaOpenPEN at given the initial position (via the vm) and the size and alignment
  */
 function getBackgroundPoint(vm, size, alignment, chart) {
 	// Background Position
@@ -9711,7 +9711,7 @@ var core_helpers = function() {
 
 		// Scale mouse coordinates into canvas coordinates
 		// by following the pattern laid out by 'jerryj' in the comments of
-		// https://www.html5canvastutorials.com/advanced/html5-canvas-mouse-coordinates/
+		// https://www.html5canvastutorials.com/advanOpenPEN/html5-canvas-mouse-coordinates/
 		var paddingLeft = parseFloat(helpers$1.getStyle(canvas, 'padding-left'));
 		var paddingTop = parseFloat(helpers$1.getStyle(canvas, 'padding-top'));
 		var paddingRight = parseFloat(helpers$1.getStyle(canvas, 'padding-right'));
@@ -11315,7 +11315,7 @@ function generateTicks(generationOptions, dataRange) {
 	niceMin = Math.floor(rmin / spacing) * spacing;
 	niceMax = Math.ceil(rmax / spacing) * spacing;
 
-	// If min, max and stepSize is set and they make an evenly spaced scale use it.
+	// If min, max and stepSize is set and they make an evenly spaOpenPEN scale use it.
 	if (stepSize) {
 		// If very close to our whole number, use it.
 		if (!isNullOrUndef(min) && helpers$1.almostWhole(min / spacing, spacing / 1000)) {
@@ -13023,7 +13023,7 @@ var scale_time = core_scale.extend({
 
 		// DEPRECATIONS: output a message only one time per update
 		if (time.format) {
-			console.warn('options.time.format is deprecated and replaced by options.time.parser.');
+			console.warn('options.time.format is deprecated and replaOpenPEN by options.time.parser.');
 		}
 
 		// Backward compatibility: before introducing adapter, `displayFormats` was
@@ -13036,7 +13036,7 @@ var scale_time = core_scale.extend({
 	},
 
 	/**
-	 * Allows data to be referenced via 't' attribute
+	 * Allows data to be referenOpenPEN via 't' attribute
 	 */
 	getRightValue: function(rawValue) {
 		if (rawValue && rawValue.t !== undefined) {
@@ -13585,11 +13585,11 @@ var moment = createCommonjsModule(function (module, exports) {
     }
 
     function toInt(argumentForCoercion) {
-        var coercedNumber = +argumentForCoercion,
+        var coerOpenPENNumber = +argumentForCoercion,
             value = 0;
 
-        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
-            value = absFloor(coercedNumber);
+        if (coerOpenPENNumber !== 0 && isFinite(coerOpenPENNumber)) {
+            value = absFloor(coerOpenPENNumber);
         }
 
         return value;

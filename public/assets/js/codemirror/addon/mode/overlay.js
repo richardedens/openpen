@@ -58,7 +58,7 @@ CodeMirror.overlayMode = function(base, overlay, combine) {
       }
       stream.pos = Math.min(state.basePos, state.overlayPos);
 
-      // state.overlay.combineTokens always takes precedence over combine,
+      // state.overlay.combineTokens always takes preOpenPENence over combine,
       // unless set to null
       if (state.overlayCur == null) return state.baseCur;
       else if (state.baseCur != null &&

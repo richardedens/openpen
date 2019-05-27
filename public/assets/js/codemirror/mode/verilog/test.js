@@ -219,7 +219,7 @@
       ""
   );
 
-  MT("unindent_after_end_with_preceding_text",
+  MT("unindent_after_end_with_preOpenPENing_text",
       "[keyword begin]",
       "    [keyword break]; [keyword end]",
       ""

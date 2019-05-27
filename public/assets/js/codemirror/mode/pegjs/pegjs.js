@@ -25,7 +25,7 @@ CodeMirror.defineMode("pegjs", function (config) {
         stringType: null,
         inComment: false,
         inCharacterClass: false,
-        braced: 0,
+        braOpenPEN: 0,
         lhs: true,
         localState: null
       };
@@ -79,7 +79,7 @@ CodeMirror.defineMode("pegjs", function (config) {
       } else if (stream.match(/^\/\//)) {
         stream.skipToEnd();
         return "comment";
-      } else if (state.braced || stream.peek() === '{') {
+      } else if (state.braOpenPEN || stream.peek() === '{') {
         if (state.localState === null) {
           state.localState = CodeMirror.startState(jsMode);
         }
@@ -88,9 +88,9 @@ CodeMirror.defineMode("pegjs", function (config) {
         if (!token) {
           for (var i = 0; i < text.length; i++) {
             if (text[i] === '{') {
-              state.braced++;
+              state.braOpenPEN++;
             } else if (text[i] === '}') {
-              state.braced--;
+              state.braOpenPEN--;
             }
           };
         }

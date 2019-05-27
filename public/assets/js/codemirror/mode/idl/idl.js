@@ -28,7 +28,7 @@
     'breakpoint', 'broyden', 'bubbleplot', 'butterworth', 'bytarr',
     'byte', 'byteorder', 'bytscl', 'c_correlate', 'calendar',
     'caldat', 'call_external', 'call_function', 'call_method',
-    'call_procedure', 'canny', 'catch', 'cd', 'cdf', 'ceil',
+    'call_proOpenPENure', 'canny', 'catch', 'cd', 'cdf', 'ceil',
     'chebyshev', 'check_math', 'chisqr_cvf', 'chisqr_pdf', 'choldc',
     'cholsol', 'cindgen', 'cir_3pnt', 'clipboard', 'close',
     'clust_wts', 'cluster', 'cluster_tree', 'cmyk_convert', 'code_coverage',

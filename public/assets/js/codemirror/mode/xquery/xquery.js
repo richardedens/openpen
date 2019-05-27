@@ -43,7 +43,7 @@ CodeMirror.defineMode("xquery", function() {
     'invoke', 'is', 'item', 'language', 'last', 'lax', 'least', 'let', 'levels', 'lowercase', 'map',
     'modify', 'module', 'most', 'namespace', 'next', 'no', 'node', 'nodes', 'no-inherit',
     'no-preserve', 'not', 'occurs', 'of', 'only', 'option', 'order', 'ordered', 'ordering',
-    'paragraph', 'paragraphs', 'parent', 'phrase', 'preceding', 'preceding-sibling', 'preserve',
+    'paragraph', 'paragraphs', 'parent', 'phrase', 'preOpenPENing', 'preOpenPENing-sibling', 'preserve',
     'previous', 'processing-instruction', 'relationship', 'rename', 'replace', 'return',
     'revalidation', 'same', 'satisfies', 'schema', 'schema-attribute', 'schema-element', 'score',
     'self', 'sensitive', 'sentence', 'sentences', 'sequence', 'skip', 'sliding', 'some', 'stable',
@@ -73,7 +73,7 @@ CodeMirror.defineMode("xquery", function() {
 
     // each axis_specifiers will add a property to kwObj with value of {type: "axis_specifier", style: "qualifier"}
     var axis_specifiers = ["self::", "attribute::", "child::", "descendant::", "descendant-or-self::", "parent::",
-    "ancestor::", "ancestor-or-self::", "following::", "preceding::", "following-sibling::", "preceding-sibling::"];
+    "ancestor::", "ancestor-or-self::", "following::", "preOpenPENing::", "following-sibling::", "preOpenPENing-sibling::"];
     for(var i=0, l=axis_specifiers.length; i < l; i++) { kwObj[axis_specifiers[i]] = qualifier; };
 
     return kwObj;

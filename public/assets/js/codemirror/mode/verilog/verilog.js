@@ -612,9 +612,9 @@ CodeMirror.defineMode("verilog", function(config, parserConfig) {
               }
             } else {
               // Just swallow one character and try again.
-              // This enables subsequent identifier match with preceding symbol character, which
+              // This enables subsequent identifier match with preOpenPENing symbol character, which
               //   is legal within a statement.  (Eg, !$reset).  It also enables detection of
-              //   comment start with preceding symbols.
+              //   comment start with preOpenPENing symbols.
               stream.backUp(stream.current().length - 1);
               style = "tlv-default";
             }

@@ -351,7 +351,7 @@ d="M82 443h66v-241q0 -33 7 -61t22.5 -48.5t39.5 -32.5t59 -12q37 0 64.5 14.5t45.5 
 d="M231 329q-46 0 -85.5 11.5t-68.5 35t-45.5 59.5t-16.5 85q0 44 12.5 75.5t33 53.5t46.5 35.5t53.5 20.5t54.5 9.5t49 2.5h306v-56h-53v-809h-62v808h-162v-808h-62v477z" />
     <glyph glyph-name="periodcentered" unicode="&#xb7;" horiz-adv-x="230" 
 d="M55 312q0 26 17 43t42 17q26 0 43.5 -17t17.5 -43q0 -25 -17.5 -42t-43.5 -17q-25 0 -42 17t-17 42z" />
-    <glyph glyph-name="cedilla" unicode="&#xb8;" horiz-adv-x="404" 
+    <glyph glyph-name="OpenPENilla" unicode="&#xb8;" horiz-adv-x="404" 
 d="M127 0h45v-77q8 13 21.5 19.5t28.5 6.5q35 0 60.5 -24t25.5 -64q0 -18 -6.5 -35t-18.5 -30.5t-30.5 -21.5t-42.5 -8q-13 0 -28.5 4.5t-29.5 15t-24.5 27.5t-12.5 42h42q2 -22 16 -36.5t37 -14.5q26 0 40.5 16.5t14.5 40.5q0 23 -15 38t-39 15q-13 0 -25 -5.5t-22 -26.5
 h-37v118z" />
     <glyph glyph-name="onesuperior" unicode="&#xb9;" horiz-adv-x="253" 
@@ -389,7 +389,7 @@ d="M540 0h-72l-43 125h-304l-43 -125h-72l241 700h52zM142 187h262l-131 404zM274 97
 q-33 0 -55.5 -23.5t-22.5 -55.5t22.5 -55t55.5 -23q32 0 55 23.5t23 55.5q0 16 -6 30t-16.5 24.5t-25 17t-30.5 6.5z" />
     <glyph glyph-name="AE" unicode="&#xc6;" horiz-adv-x="847" 
 d="M453 638v-259h314v-62h-314v-255h314v-62h-382v125h-246l-62 -125h-75l350 700h415v-62h-314zM385 188v436l-216 -436h216z" />
-    <glyph glyph-name="Ccedilla" unicode="&#xc7;" horiz-adv-x="775" 
+    <glyph glyph-name="COpenPENilla" unicode="&#xc7;" horiz-adv-x="775" 
 d="M662 464q-10 40 -31 74.5t-53.5 60t-76 40t-97.5 14.5q-69 0 -123 -25t-91.5 -67t-57 -96.5t-19.5 -113.5q0 -62 20.5 -117t59.5 -96.5t95.5 -66t128.5 -24.5q41 0 79.5 12t70 33t55.5 50t36 64h75q-14 -46 -42.5 -86t-69.5 -69.5t-92 -47t-110 -18.5q-5 0 -8.5 0.5
 t-7.5 0.5v-58q16 23 54 23q34 0 57 -22.5t23 -59.5q0 -34 -24.5 -61t-72.5 -27q-12 0 -26.5 4t-28.5 13t-24.5 23.5t-13.5 36.5h43q4 -17 17 -28t33 -11q25 0 39.5 14.5t14.5 35.5t-13.5 35.5t-36.5 14.5q-14 0 -27 -6t-22 -23h-37v98q-74 9 -132.5 41t-99 81t-62 111
 t-21.5 130q0 71 24.5 136.5t70 116t111 81t147.5 30.5q74 0 132 -19.5t100 -53t68 -79.5t37 -99h-71z" />
@@ -478,7 +478,7 @@ t-23.5 -59q0 -34 24 -58t58 -24q35 0 58.5 24t23.5 59q0 34 -23.5 58t-58.5 24z" />
 d="M509 443v-61q23 32 61.5 51.5t90.5 19.5q43 0 80.5 -15t65 -42t43.5 -63t16 -78q0 -9 -0.5 -20.5t-2.5 -27.5h-353q0 -34 9.5 -63.5t28.5 -51t48 -34t68 -12.5q56 0 87 24t43 57h67q-6 -27 -22.5 -52t-41.5 -44t-58.5 -30.5t-74.5 -11.5q-54 0 -93 21t-62 53v-63h-65v93
 q-22 -47 -68 -75.5t-104 -28.5q-51 0 -93.5 18.5t-72.5 50.5t-46.5 74t-16.5 89t16.5 89.5t46.5 74t72.5 50t93.5 18.5q58 0 104 -28t68 -76v94h65zM660 397q-65 0 -105.5 -37.5t-43.5 -101.5h291q0 31 -11 57t-30 44t-45 28t-56 10zM275 49q39 0 70 14t53 37.5t34 54.5
 t12 66q0 36 -12 67.5t-34 55t-53.5 37t-69.5 13.5t-69 -14t-52.5 -37.5t-33.5 -55t-12 -66.5t12 -66t33.5 -54.5t52.5 -37.5t69 -14z" />
-    <glyph glyph-name="ccedilla" unicode="&#xe7;" horiz-adv-x="524" 
+    <glyph glyph-name="cOpenPENilla" unicode="&#xe7;" horiz-adv-x="524" 
 d="M219 -6q-42 8 -74.5 29.5t-54.5 52.5t-33 68.5t-11 77.5q0 45 14.5 87t42 74t69 51.5t95.5 19.5q53 0 91 -15t63 -39.5t37.5 -55.5t15.5 -63h-65q-3 23 -12 44t-25.5 36.5t-42 24.5t-61.5 9q-39 0 -68 -14.5t-48.5 -38.5t-29.5 -55t-10 -65q0 -35 9.5 -66t29.5 -55
 t49.5 -38t70.5 -14q65 0 97 29t43 74h65q-5 -33 -19.5 -62t-39 -51t-59.5 -35t-81 -14h-13v-62q16 23 54 23q34 0 57 -22.5t23 -59.5q0 -34 -24.5 -61t-71.5 -27q-12 0 -27 4t-28.5 13t-24.5 23.5t-14 36.5h43q4 -17 17 -28t34 -11q24 0 38.5 14.5t14.5 35.5t-13.5 35.5
 t-36.5 14.5q-14 0 -27 -6t-22 -23h-37v104z" />
@@ -791,11 +791,11 @@ l-136 -121l-39 43z" />
     <glyph glyph-name="scircumflex" unicode="&#x15d;" horiz-adv-x="450" 
 d="M256 242q27 -7 53 -14.5t46.5 -21t32.5 -34t12 -53.5q0 -64 -46.5 -97t-124.5 -33q-38 0 -71.5 9.5t-58.5 29.5t-40 50t-15 72h64q0 -30 9.5 -50t26 -33t39.5 -18.5t49 -5.5q50 0 78 19t28 56q0 22 -11 35t-30.5 22t-46 16l-58.5 16q-27 7 -51.5 15t-43 21t-29 33
 t-10.5 51t12.5 54.5t34.5 39.5t52 24t65 8q36 0 67.5 -10t54.5 -29t36 -46.5t13 -61.5h-64q0 46 -28.5 70t-79.5 24q-44 0 -71.5 -19.5t-27.5 -54.5q0 -20 9 -32.5t26 -21t42 -15zM224 728l175 -150l-38 -44l-137 122l-136 -121l-39 43z" />
-    <glyph glyph-name="Scedilla" unicode="&#x15e;" horiz-adv-x="572" 
+    <glyph glyph-name="SOpenPENilla" unicode="&#x15e;" horiz-adv-x="572" 
 d="M257 -14q-47 5 -85.5 23.5t-66 48.5t-43 70t-15.5 89h68q0 -77 48.5 -123.5t131.5 -46.5q73 0 117.5 35.5t44.5 97.5q0 39 -14.5 63.5t-37.5 40t-51.5 24l-57.5 16.5q-44 13 -84.5 27t-71.5 37t-49 57.5t-18 87.5q0 39 15.5 72.5t44 58t69 38t90.5 13.5q48 0 88 -15
 t68.5 -42t44.5 -66t17 -87h-68q-2 69 -40.5 108.5t-107.5 39.5q-72 0 -112 -33t-40 -87q0 -35 13.5 -58.5t35.5 -39t50 -25t57 -17.5q40 -12 81 -26t73 -36.5t52.5 -57t20.5 -86.5q0 -48 -16.5 -84t-45.5 -61.5t-70 -39t-90 -16.5v-63q8 13 21.5 19.5t28.5 6.5q35 0 60 -24
 t25 -64q0 -18 -6.5 -35t-18.5 -30.5t-30 -21.5t-42 -8q-13 0 -29 4.5t-30 15t-24.5 27.5t-12.5 42h43q2 -22 16 -36.5t37 -14.5q26 0 40.5 16.5t14.5 40.5q0 23 -15 38t-40 15q-12 0 -24 -5.5t-22 -26.5h-38v104z" />
-    <glyph glyph-name="scedilla" unicode="&#x15f;" horiz-adv-x="450" 
+    <glyph glyph-name="sOpenPENilla" unicode="&#x15f;" horiz-adv-x="450" 
 d="M195 -8q-32 4 -59.5 15.5t-48 31t-32 47t-11.5 64.5h64q0 -30 9.5 -50t26 -33t39.5 -18.5t49 -5.5q50 0 78 19t28 56q0 22 -11 35.5t-30.5 22.5t-47 16t-59.5 16q-27 6 -51 14t-42 21t-28.5 33t-10.5 51t12.5 54.5t34.5 39.5t52 24t65 8q36 0 67.5 -10t54.5 -29t36 -46.5
 t13 -61.5h-64q0 46 -28.5 70t-79.5 24q-44 0 -71.5 -19.5t-27.5 -54.5q0 -20 10.5 -32.5t29 -21t44 -15t55.5 -15.5q26 -7 51 -15t44.5 -21.5t31.5 -34t12 -52.5q0 -61 -42.5 -93.5t-117.5 -35.5v-67q8 13 22 19.5t28 6.5q35 0 60.5 -24t25.5 -64q0 -18 -6.5 -35
 t-18.5 -30.5t-30.5 -21.5t-42.5 -8q-13 0 -28.5 4.5t-29.5 15t-24.5 27.5t-12.5 42h42q2 -22 16 -36.5t37 -14.5q26 0 41 16.5t15 40.5q0 23 -15 38t-40 15q-13 0 -25 -5.5t-22 -26.5h-37v110z" />
@@ -1513,7 +1513,7 @@ d="M74 700h235v-44h-184v-133q11 22 35.5 33t50.5 11q30 0 53 -10.5t39 -28t24 -40.5
 h-53v222z" />
     <glyph glyph-name="K.smcp" horiz-adv-x="542" 
 d="M167 259v-259h-67v560h67v-260l250 260h84l-268 -280l268 -280h-84z" />
-    <glyph glyph-name="Ccedilla.smcp" horiz-adv-x="692" 
+    <glyph glyph-name="COpenPENilla.smcp" horiz-adv-x="692" 
 d="M626 171q-11 -38 -33.5 -70.5t-55 -57t-74 -39t-90.5 -16.5h-11v-37q5 8 15.5 13.5t24.5 5.5q28 0 48 -20t20 -51q0 -29 -20.5 -52t-58.5 -23q-11 0 -23.5 3.5t-23.5 11.5t-19.5 21t-10.5 31h38q2 -15 12 -25t27 -10q19 0 30 12.5t11 30.5q0 17 -11 28.5t-30 11.5
 q-11 0 -20 -4t-15 -18h-34v73q-60 7 -107 33t-80 65t-50 89t-17 104q0 57 19.5 109.5t56.5 93t90 65t119 24.5q60 0 107.5 -16t81.5 -44t55 -65.5t29 -80.5h-70q-8 31 -24 57t-41 45.5t-58 30.5t-75 11q-53 0 -94 -19t-69.5 -51t-43.5 -73.5t-15 -86.5q0 -47 15.5 -89.5
 t45.5 -74t73 -50t97 -18.5q66 0 116.5 34.5t70.5 87.5h72v0z" />
@@ -1532,7 +1532,7 @@ d="M167 502v-196h244v-56h-244v-192h244v-58h-311v560h311v-58h-244zM143 710q9 -32 
     <glyph glyph-name="six.denominator" horiz-adv-x="370" 
 d="M184 -6q-32 0 -57 10.5t-42.5 28.5t-27 41.5t-9.5 50.5q0 41 22 74l117 186h63l-90 -140q8 5 18.5 6.5t21.5 0.5q55 -4 87 -40.5t32 -86.5q0 -27 -9.5 -50.5t-27 -41.5t-42.5 -28.5t-56 -10.5zM184 40q37 0 59 25t22 60t-22 59.5t-59 24.5q-38 0 -59.5 -24.5t-21.5 -59.5
 t21.5 -60t59.5 -25z" />
-    <glyph glyph-name="Scedilla.smcp" horiz-adv-x="535" 
+    <glyph glyph-name="SOpenPENilla.smcp" horiz-adv-x="535" 
 d="M139 175q0 -59 36.5 -94.5t99.5 -35.5q56 0 89 26.5t33 73.5q0 29 -11 47.5t-28.5 30.5t-40.5 19.5t-47 13.5q-35 10 -67.5 22t-57.5 30.5t-39.5 46t-14.5 70.5q0 33 13 60t37 46.5t57.5 30.5t74.5 11q84 0 131.5 -47.5t49.5 -122.5h-68q-2 53 -30.5 83t-81.5 30
 q-55 0 -85 -25t-30 -65q0 -27 10 -45t27.5 -30t39.5 -19.5t46 -14.5q33 -9 65.5 -20.5t58.5 -30t42 -46t16 -69.5q0 -77 -49.5 -117.5t-131.5 -44.5v-49q6 11 17 16t23 5q29 0 49 -20t20 -51q0 -30 -20.5 -53.5t-59.5 -23.5q-12 0 -25 4t-24 13t-19.5 22.5t-9.5 32.5h38
 q2 -17 12.5 -28t27.5 -11q20 0 31.5 12.5t11.5 31.5q0 17 -11.5 29t-30.5 12q-10 0 -19 -4.5t-17 -19.5h-33v82q-39 4 -71 19t-54.5 39t-35 56.5t-12.5 71.5h68z" />
@@ -2036,7 +2036,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern u1="A" g2="Odieresis.001" k="25" />
     <hkern u1="A" g2="Wdieresis.smcp" k="33" />
     <hkern u1="A" g2="Umacron.smcp" k="8" />
-    <hkern u1="A" g2="Ccedilla.smcp" k="18" />
+    <hkern u1="A" g2="COpenPENilla.smcp" k="18" />
     <hkern u1="A" g2="Uhungarumlaut.smcp" k="8" />
     <hkern u1="A" g2="Cdotaccent.smcp" k="18" />
     <hkern u1="A" g2="Ccircumflex.smcp" k="18" />
@@ -4053,12 +4053,12 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="five.numerator" u2="&#x2026;" k="12" />
     <hkern g1="five.numerator" u2="&#x2e;" k="12" />
     <hkern g1="five.numerator" u2="&#x2c;" k="12" />
-    <hkern g1="Ccedilla.smcp" g2="W.smcp" k="23" />
-    <hkern g1="Ccedilla.smcp" g2="V.smcp" k="18" />
-    <hkern g1="Ccedilla.smcp" g2="A.smcp" k="14" />
-    <hkern g1="Ccedilla.smcp" g2="Y.smcp" k="41" />
-    <hkern g1="Ccedilla.smcp" u2="e" k="10" />
-    <hkern g1="Ccedilla.smcp" u2="&#x2e;" k="40" />
+    <hkern g1="COpenPENilla.smcp" g2="W.smcp" k="23" />
+    <hkern g1="COpenPENilla.smcp" g2="V.smcp" k="18" />
+    <hkern g1="COpenPENilla.smcp" g2="A.smcp" k="14" />
+    <hkern g1="COpenPENilla.smcp" g2="Y.smcp" k="41" />
+    <hkern g1="COpenPENilla.smcp" u2="e" k="10" />
+    <hkern g1="COpenPENilla.smcp" u2="&#x2e;" k="40" />
     <hkern g1="seven.plf.smcp" g2="nine.plf.smcp" k="7" />
     <hkern g1="seven.plf.smcp" g2="six.plf.smcp" k="46" />
     <hkern g1="seven.plf.smcp" g2="eight.plf.smcp" k="22" />
@@ -4214,34 +4214,34 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="zero.numerator" u2="&#x2026;" k="4" />
     <hkern g1="zero.numerator" u2="&#x2e;" k="4" />
     <hkern g1="zero.numerator" u2="&#x2c;" k="4" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="A,Agrave,Aacute,Acircumflex,Atilde,Adieresis,Aring,AE,Amacron,Abreve,Aogonek,Aringacute,AEacute,Adieresis.001"
 	k="10" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="Y,Yacute,Ycircumflex,Ydieresis,Ygrave"
 	k="15" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="a,agrave,aacute,acircumflex,atilde,adieresis,aring,ae,amacron,abreve,aogonek,aringacute,aeacute"
 	k="32" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="35" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="M.smcp"
 	k="60" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="j,jcircumflex"
 	k="27" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="b"
 	k="29" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="J,Jcircumflex"
 	k="40" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="Gdotaccent.smcp,Gcircumflex.smcp,G.smcp,Gbreve.smcp,Gcommaaccent.smcp"
 	k="60" />
-    <hkern g1="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+    <hkern g1="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	g2="X.smcp"
 	k="5" />
     <hkern g1="E,Egrave,Eacute,Ecircumflex,Edieresis,Emacron,Ebreve,Edotaccent,Eogonek,Ecaron,OE,Edieresis.001"
@@ -4257,7 +4257,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="27" />
     <hkern g1="E,Egrave,Eacute,Ecircumflex,Edieresis,Emacron,Ebreve,Edotaccent,Eogonek,Ecaron,OE,Edieresis.001"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="27" />
     <hkern g1="E,Egrave,Eacute,Ecircumflex,Edieresis,Emacron,Ebreve,Edotaccent,Eogonek,Ecaron,OE,Edieresis.001"
 	g2="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
@@ -4266,7 +4266,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="IJ.smcp,I.smcp"
 	k="32" />
     <hkern g1="E,Egrave,Eacute,Ecircumflex,Edieresis,Emacron,Ebreve,Edotaccent,Eogonek,Ecaron,OE,Edieresis.001"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="30" />
     <hkern g1="E,Egrave,Eacute,Ecircumflex,Edieresis,Emacron,Ebreve,Edotaccent,Eogonek,Ecaron,OE,Edieresis.001"
 	g2="Wcircumflex.smcp,Wdieresis.smcp,Wacute.smcp,W.smcp,Wgrave.smcp"
@@ -4290,7 +4290,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="Tbar.smcp,uni021A.smcp,Tcommaaccent.smcp,Tcaron.smcp,T.smcp"
 	k="25" />
     <hkern g1="F"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="40" />
     <hkern g1="F"
 	g2="G,Gcircumflex,Gbreve,Gdotaccent,Gcommaaccent"
@@ -4344,7 +4344,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="quoteright,quotedblright"
 	k="40" />
     <hkern g1="J,IJ,Jcircumflex"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="55" />
     <hkern g1="J,IJ,Jcircumflex"
 	g2="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
@@ -4353,13 +4353,13 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="IJ.smcp,I.smcp"
 	k="57" />
     <hkern g1="J,IJ,Jcircumflex"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="55" />
     <hkern g1="J,IJ,Jcircumflex"
 	g2="Wcircumflex.smcp,Wdieresis.smcp,Wacute.smcp,W.smcp,Wgrave.smcp"
 	k="33" />
     <hkern g1="J,IJ,Jcircumflex"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="25" />
     <hkern g1="K,Kcommaaccent"
 	g2="d,dcaron,dcroat"
@@ -4371,7 +4371,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="o,ograve,oacute,ocircumflex,otilde,odieresis,oslash,omacron,obreve,ohungarumlaut,oe,oslashacute"
 	k="79" />
     <hkern g1="K,Kcommaaccent"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="20" />
     <hkern g1="K,Kcommaaccent"
 	g2="X"
@@ -4410,7 +4410,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="60" />
     <hkern g1="K,Kcommaaccent"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="12" />
     <hkern g1="K,Kcommaaccent"
 	g2="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
@@ -4428,7 +4428,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="o,ograve,oacute,ocircumflex,otilde,odieresis,oslash,omacron,obreve,ohungarumlaut,oe,oslashacute"
 	k="15" />
     <hkern g1="L,Lacute,Lcommaaccent,Lcaron,Ldot,Lslash"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="50" />
     <hkern g1="L,Lacute,Lcommaaccent,Lcaron,Ldot,Lslash"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
@@ -4452,7 +4452,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="o,ograve,oacute,ocircumflex,otilde,odieresis,oslash,omacron,obreve,ohungarumlaut,oe,oslashacute"
 	k="20" />
     <hkern g1="O,Q,Ograve,Oacute,Ocircumflex,Otilde,Odieresis,Oslash,Omacron,Obreve,Ohungarumlaut,Oslashacute,Odieresis.001"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="10" />
     <hkern g1="O,Q,Ograve,Oacute,Ocircumflex,Otilde,Odieresis,Oslash,Omacron,Obreve,Ohungarumlaut,Oslashacute,Odieresis.001"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
@@ -4518,7 +4518,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="80" />
     <hkern g1="R,Racute,Rcommaaccent,Rcaron"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="83" />
     <hkern g1="R,Racute,Rcommaaccent,Rcaron"
 	g2="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
@@ -4527,7 +4527,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="IJ.smcp,I.smcp"
 	k="41" />
     <hkern g1="R,Racute,Rcommaaccent,Rcaron"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="58" />
     <hkern g1="R,Racute,Rcommaaccent,Rcaron"
 	g2="Dcroat.smcp,D.smcp,Dcaron.smcp"
@@ -4547,49 +4547,49 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="R,Racute,Rcommaaccent,Rcaron"
 	g2="X.smcp"
 	k="50" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="comma,period,ellipsis"
 	k="50" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="A,Agrave,Aacute,Acircumflex,Atilde,Adieresis,Aring,AE,Amacron,Abreve,Aogonek,Aringacute,AEacute,Adieresis.001"
 	k="60" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="V"
 	k="41" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="W,Wcircumflex,Wgrave,Wacute,Wdieresis"
 	k="10" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="d,dcaron,dcroat"
 	k="100" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="e,egrave,eacute,ecircumflex,edieresis,emacron,ebreve,edotaccent,eogonek,ecaron"
 	k="30" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="o,ograve,oacute,ocircumflex,otilde,odieresis,oslash,omacron,obreve,ohungarumlaut,oe,oslashacute"
 	k="15" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="41" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
 	k="10" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="T,Tcommaaccent,Tcaron,Tbar,uni021A"
 	k="10" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="X"
 	k="10" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="u,ugrave,uacute,ucircumflex,udieresis,utilde,umacron,ubreve,uring,uhungarumlaut,uogonek"
 	k="10" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="y,yacute,ydieresis,ycircumflex,ygrave"
 	k="70" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="z,zacute,zdotaccent,zcaron"
 	k="25" />
-    <hkern g1="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	g2="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	k="10" />
     <hkern g1="T,Tcommaaccent,Tcaron,Tbar,uni021A"
@@ -4614,7 +4614,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="Tbar.smcp,uni021A.smcp,Tcommaaccent.smcp,Tcaron.smcp,T.smcp"
 	k="35" />
     <hkern g1="T,Tcommaaccent,Tcaron,Tbar,uni021A"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="38" />
     <hkern g1="T,Tcommaaccent,Tcaron,Tbar,uni021A"
 	g2="w,wcircumflex,wgrave,wacute,wdieresis"
@@ -4632,7 +4632,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
 	k="40" />
     <hkern g1="T,Tcommaaccent,Tcaron,Tbar,uni021A"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="25" />
     <hkern g1="T,Tcommaaccent,Tcaron,Tbar,uni021A"
 	g2="Dcroat.smcp,D.smcp,Dcaron.smcp"
@@ -4650,7 +4650,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="A,Agrave,Aacute,Acircumflex,Atilde,Adieresis,Aring,AE,Amacron,Abreve,Aogonek,Aringacute,AEacute,Adieresis.001"
 	k="20" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="90" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
@@ -4683,7 +4683,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="Tbar.smcp,uni021A.smcp,Tcommaaccent.smcp,Tcaron.smcp,T.smcp"
 	k="70" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="45" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	g2="O,Q,Ograve,Oacute,Ocircumflex,Otilde,Odieresis,Oslash,Omacron,Obreve,Ohungarumlaut,OE,Oslashacute,Odieresis.001"
@@ -4707,13 +4707,13 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="25" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="25" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	g2="IJ.smcp,I.smcp"
 	k="15" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="13" />
     <hkern g1="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	g2="M.smcp"
@@ -4767,13 +4767,13 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="a,agrave,aacute,acircumflex,atilde,adieresis,aring,ae,amacron,abreve,aogonek,aringacute,aeacute"
 	k="100" />
     <hkern g1="W,Wcircumflex,Wgrave,Wacute,Wdieresis"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="95" />
     <hkern g1="W,Wcircumflex,Wgrave,Wacute,Wdieresis"
 	g2="d,dcaron,dcroat"
 	k="58" />
     <hkern g1="W,Wcircumflex,Wgrave,Wacute,Wdieresis"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="90" />
     <hkern g1="W,Wcircumflex,Wgrave,Wacute,Wdieresis"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
@@ -4872,7 +4872,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="Wcircumflex.smcp,Wdieresis.smcp,Wacute.smcp,W.smcp,Wgrave.smcp"
 	k="7" />
     <hkern g1="a,agrave,aacute,acircumflex,atilde,adieresis,aring,amacron,abreve,aogonek,aringacute"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="7" />
     <hkern g1="b"
 	g2="o,ograve,oacute,ocircumflex,otilde,odieresis,oslash,omacron,obreve,ohungarumlaut,oe,oslashacute"
@@ -4892,11 +4892,11 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="b"
 	g2="Uogonek.smcp,Udieresis.smcp,Uacute.smcp,Uring.smcp,Ubreve.smcp,Uhungarumlaut.smcp,Umacron.smcp,Ugrave.smcp,Udieresis.001.smcp,Ucircumflex.smcp,Utilde.smcp,U.smcp"
 	k="15" />
-    <hkern g1="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+    <hkern g1="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	g2="V.smcp"
 	k="5" />
     <hkern g1="e,ae,egrave,eacute,ecircumflex,edieresis,emacron,ebreve,edotaccent,eogonek,ecaron,oe,aeacute"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="25" />
     <hkern g1="e,ae,egrave,eacute,ecircumflex,edieresis,emacron,ebreve,edotaccent,eogonek,ecaron,oe,aeacute"
 	g2="d,dcaron,dcroat"
@@ -4908,7 +4908,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="o,ograve,oacute,ocircumflex,otilde,odieresis,oslash,omacron,obreve,ohungarumlaut,oe,oslashacute"
 	k="27" />
     <hkern g1="e,ae,egrave,eacute,ecircumflex,edieresis,emacron,ebreve,edotaccent,eogonek,ecaron,oe,aeacute"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="27" />
     <hkern g1="e,ae,egrave,eacute,ecircumflex,edieresis,emacron,ebreve,edotaccent,eogonek,ecaron,oe,aeacute"
 	g2="n,ntilde,nacute,ncommaaccent,ncaron,napostrophe"
@@ -5009,32 +5009,32 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="r,racute,rcommaaccent,rcaron"
 	g2="J,Jcircumflex"
 	k="30" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="comma,period,ellipsis"
 	k="6" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="50" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="d,dcaron,dcroat"
 	k="23" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
 	k="17" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="X"
 	k="17" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="u,ugrave,uacute,ucircumflex,udieresis,utilde,umacron,ubreve,uring,uhungarumlaut,uogonek"
 	k="17" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="v"
 	k="22" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	g2="y,yacute,ydieresis,ycircumflex,ygrave"
 	k="12" />
-    <hkern g1="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+    <hkern g1="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="30" />
     <hkern g1="t,tcommaaccent,tcaron,tbar,uni021B"
 	g2="Y,Yacute,Ycircumflex,Ydieresis,Ygrave"
@@ -5043,7 +5043,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="a,agrave,aacute,acircumflex,atilde,adieresis,aring,ae,amacron,abreve,aogonek,aringacute,aeacute"
 	k="12" />
     <hkern g1="t,tcommaaccent,tcaron,tbar,uni021B"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="6" />
     <hkern g1="t,tcommaaccent,tcaron,tbar,uni021B"
 	g2="d,dcaron,dcroat"
@@ -5079,13 +5079,13 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="e,egrave,eacute,ecircumflex,edieresis,emacron,ebreve,edotaccent,eogonek,ecaron"
 	k="35" />
     <hkern g1="v"
-	g2="s,sacute,scircumflex,scedilla,scaron,scommaaccent"
+	g2="s,sacute,scircumflex,sOpenPENilla,scaron,scommaaccent"
 	k="30" />
     <hkern g1="v"
 	g2="x"
 	k="25" />
     <hkern g1="v"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="40" />
     <hkern g1="w,wcircumflex,wgrave,wacute,wdieresis"
 	g2="Uogonek.smcp,Udieresis.smcp,Uacute.smcp,Uring.smcp,Ubreve.smcp,Uhungarumlaut.smcp,Umacron.smcp,Ugrave.smcp,Udieresis.001.smcp,Ucircumflex.smcp,Utilde.smcp,U.smcp"
@@ -5115,13 +5115,13 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="15" />
     <hkern g1="x"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="45" />
     <hkern g1="x"
 	g2="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
 	k="62" />
     <hkern g1="x"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="12" />
     <hkern g1="x"
 	g2="M.smcp"
@@ -5213,28 +5213,28 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="B.smcp"
 	g2="hyphen,endash,emdash,minus,endash.case,emdash.case,hyphen.case"
 	k="60" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	k="60" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="quoteright,quotedblright"
 	k="45" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="hyphen,endash,emdash,minus,endash.case,emdash.case,hyphen.case"
 	k="45" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="f,longs,uniFB00,fi,fl,uniFB03,uniFB04"
 	k="53" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="53" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="Wcircumflex.smcp,Wdieresis.smcp,Wacute.smcp,W.smcp,Wgrave.smcp"
 	k="39" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="55" />
-    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+    <hkern g1="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	g2="j,jcircumflex"
 	k="35" />
     <hkern g1="Dcroat.smcp,D.smcp,Dcaron.smcp"
@@ -5244,7 +5244,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="A,Agrave,Aacute,Acircumflex,Atilde,Adieresis,Aring,AE,Amacron,Abreve,Aogonek,Aringacute,AEacute,Adieresis.001"
 	k="50" />
     <hkern g1="Dcroat.smcp,D.smcp,Dcaron.smcp"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="20" />
     <hkern g1="Dcroat.smcp,D.smcp,Dcaron.smcp"
 	g2="w,wcircumflex,wgrave,wacute,wdieresis"
@@ -5259,7 +5259,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="i,igrave,iacute,icircumflex,idieresis,itilde,imacron,ibreve,iogonek,ij"
 	k="43" />
     <hkern g1="Dcroat.smcp,D.smcp,Dcaron.smcp"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="17" />
     <hkern g1="Dcroat.smcp,D.smcp,Dcaron.smcp"
 	g2="M.smcp"
@@ -5274,7 +5274,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="V"
 	k="46" />
     <hkern g1="E.smcp,Egrave.smcp,Edotaccent.smcp,Ecaron.smcp,Eacute.smcp,Emacron.smcp,Ebreve.smcp,OE.smcp,Ecircumflex.smcp,Edieresis.smcp,Edieresis.001.smcp,Eogonek.smcp"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="44" />
     <hkern g1="E.smcp,Egrave.smcp,Edotaccent.smcp,Ecaron.smcp,Eacute.smcp,Emacron.smcp,Ebreve.smcp,OE.smcp,Ecircumflex.smcp,Edieresis.smcp,Edieresis.001.smcp,Eogonek.smcp"
 	g2="X"
@@ -5292,7 +5292,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="IJ.smcp,I.smcp"
 	k="55" />
     <hkern g1="E.smcp,Egrave.smcp,Edotaccent.smcp,Ecaron.smcp,Eacute.smcp,Emacron.smcp,Ebreve.smcp,OE.smcp,Ecircumflex.smcp,Edieresis.smcp,Edieresis.001.smcp,Eogonek.smcp"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="41" />
     <hkern g1="F.smcp"
 	g2="d,dcaron,dcroat"
@@ -5313,7 +5313,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="d,dcaron,dcroat"
 	k="10" />
     <hkern g1="Gdotaccent.smcp,Gcircumflex.smcp,G.smcp,Gbreve.smcp,Gcommaaccent.smcp"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="36" />
     <hkern g1="J.smcp,IJ.smcp,Jcircumflex.smcp"
 	g2="b"
@@ -5343,7 +5343,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="z,zacute,zdotaccent,zcaron"
 	k="100" />
     <hkern g1="Kcommaaccent.smcp,K.smcp"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="41" />
     <hkern g1="Kcommaaccent.smcp,K.smcp"
 	g2="IJ.smcp,I.smcp"
@@ -5352,16 +5352,16 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="U,Ugrave,Uacute,Ucircumflex,Udieresis,Utilde,Umacron,Ubreve,Uring,Uhungarumlaut,Uogonek,Udieresis.001"
 	k="100" />
     <hkern g1="Lcommaaccent.smcp,Lacute.smcp,Lcaron.smcp,L.smcp,Ldot.smcp,Lslash.smcp"
-	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,Ccedilla.smcp"
+	g2="C.smcp,Cacute.smcp,Ccaron.smcp,Ccircumflex.smcp,Cdotaccent.smcp,COpenPENilla.smcp"
 	k="50" />
     <hkern g1="Lcommaaccent.smcp,Lacute.smcp,Lcaron.smcp,L.smcp,Ldot.smcp,Lslash.smcp"
-	g2="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+	g2="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	k="55" />
     <hkern g1="Lcommaaccent.smcp,Lacute.smcp,Lcaron.smcp,L.smcp,Ldot.smcp,Lslash.smcp"
 	g2="Wcircumflex.smcp,Wdieresis.smcp,Wacute.smcp,W.smcp,Wgrave.smcp"
 	k="55" />
     <hkern g1="Lcommaaccent.smcp,Lacute.smcp,Lcaron.smcp,L.smcp,Ldot.smcp,Lslash.smcp"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="40" />
     <hkern g1="Lcommaaccent.smcp,Lacute.smcp,Lcaron.smcp,L.smcp,Ldot.smcp,Lslash.smcp"
 	g2="Dcroat.smcp,D.smcp,Dcaron.smcp"
@@ -5373,7 +5373,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="X.smcp"
 	k="70" />
     <hkern g1="Q.smcp,Obreve.smcp,Otilde.smcp,Ocircumflex.smcp,Odieresis.001.smcp,Omacron.smcp,Oslash.smcp,Oslashacute.smcp,Ohungarumlaut.smcp,Odieresis.smcp,O.smcp,Oacute.smcp,Ograve.smcp"
-	g2="c,ccedilla,cacute,ccircumflex,cdotaccent,ccaron"
+	g2="c,cOpenPENilla,cacute,ccircumflex,cdotaccent,ccaron"
 	k="18" />
     <hkern g1="Q.smcp,Obreve.smcp,Otilde.smcp,Ocircumflex.smcp,Odieresis.001.smcp,Omacron.smcp,Oslash.smcp,Oslashacute.smcp,Ohungarumlaut.smcp,Odieresis.smcp,O.smcp,Oacute.smcp,Ograve.smcp"
 	g2="Amacron.smcp,Aring.smcp,A.smcp,AEacute.smcp,Adieresis.001.smcp,Abreve.smcp,Aacute.smcp,Aringacute.smcp,Adieresis.smcp,Aogonek.smcp,AE.smcp,Agrave.smcp,Atilde.smcp,Acircumflex.smcp"
@@ -5385,7 +5385,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="z,zacute,zdotaccent,zcaron"
 	k="23" />
     <hkern g1="Q.smcp,Obreve.smcp,Otilde.smcp,Ocircumflex.smcp,Odieresis.001.smcp,Omacron.smcp,Oslash.smcp,Oslashacute.smcp,Ohungarumlaut.smcp,Odieresis.smcp,O.smcp,Oacute.smcp,Ograve.smcp"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="90" />
     <hkern g1="Q.smcp,Obreve.smcp,Otilde.smcp,Ocircumflex.smcp,Odieresis.001.smcp,Omacron.smcp,Oslash.smcp,Oslashacute.smcp,Ohungarumlaut.smcp,Odieresis.smcp,O.smcp,Oacute.smcp,Ograve.smcp"
 	g2="Uogonek.smcp,Udieresis.smcp,Uacute.smcp,Uring.smcp,Ubreve.smcp,Uhungarumlaut.smcp,Umacron.smcp,Ugrave.smcp,Udieresis.001.smcp,Ucircumflex.smcp,Utilde.smcp,U.smcp"
@@ -5412,7 +5412,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="IJ.smcp,I.smcp"
 	k="40" />
     <hkern g1="Q.smcp,Obreve.smcp,Otilde.smcp,Ocircumflex.smcp,Odieresis.001.smcp,Omacron.smcp,Oslash.smcp,Oslashacute.smcp,Ohungarumlaut.smcp,Odieresis.smcp,O.smcp,Oacute.smcp,Ograve.smcp"
-	g2="S,Sacute,Scircumflex,Scedilla,Scaron,Scommaaccent"
+	g2="S,Sacute,Scircumflex,SOpenPENilla,Scaron,Scommaaccent"
 	k="70" />
     <hkern g1="Q.smcp,Obreve.smcp,Otilde.smcp,Ocircumflex.smcp,Odieresis.001.smcp,Omacron.smcp,Oslash.smcp,Oslashacute.smcp,Ohungarumlaut.smcp,Odieresis.smcp,O.smcp,Oacute.smcp,Ograve.smcp"
 	g2="Dcroat.smcp,D.smcp,Dcaron.smcp"
@@ -5463,7 +5463,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
 	g2="z,zacute,zdotaccent,zcaron"
 	k="23" />
     <hkern g1="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
-	g2="C,Ccedilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
+	g2="C,COpenPENilla,Cacute,Ccircumflex,Cdotaccent,Ccaron"
 	k="126" />
     <hkern g1="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
 	g2="G,Gcircumflex,Gbreve,Gdotaccent,Gcommaaccent"
@@ -5477,7 +5477,7 @@ q0 39 11.5 67.5t29 49.5t36.5 35.5t34 24.5q24 16 40.5 29.5t27.5 30.5t16 40t5 58h6
     <hkern g1="Rcaron.smcp,Racute.smcp,R.smcp,Rcommaaccent.smcp"
 	g2="Dcroat.smcp,D.smcp,Dcaron.smcp"
 	k="36" />
-    <hkern g1="Scaron.smcp,Scommaaccent.smcp,Scedilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
+    <hkern g1="Scaron.smcp,Scommaaccent.smcp,SOpenPENilla.smcp,Scircumflex.smcp,Sacute.smcp,S.smcp"
 	g2="v"
 	k="10" />
     <hkern g1="Tbar.smcp,uni021A.smcp,Tcommaaccent.smcp,Tcaron.smcp,T.smcp"

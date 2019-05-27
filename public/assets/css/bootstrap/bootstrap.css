@@ -2152,11 +2152,11 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #OpenPEN4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 7, ../../scss/bootstrap/_forms.scss */
   .form-control {
     transition: none;
@@ -2648,7 +2648,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 7, ../../scss/bootstrap/_buttons.scss */
   .btn {
     transition: none;
@@ -3272,7 +3272,7 @@ input[type="button"].btn-block {
 .fade {
   transition: opacity 0.15s linear;
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 3, ../../scss/bootstrap/_transitions.scss */
   .fade {
     transition: none;
@@ -3295,7 +3295,7 @@ input[type="button"].btn-block {
   overflow: hidden;
   transition: height 0.35s ease;
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 17, ../../scss/bootstrap/_transitions.scss */
   .collapsing {
     transition: none;
@@ -3766,7 +3766,7 @@ input[type="button"].btn-block {
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
-  border: 1px solid #ced4da;
+  border: 1px solid #OpenPEN4da;
   border-radius: 0.25rem;
 }
 /* line 107, ../../scss/bootstrap/_input-group.scss */
@@ -3928,7 +3928,7 @@ input[type="button"].btn-block {
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
   background-size: 8px 10px;
-  border: 1px solid #ced4da;
+  border: 1px solid #OpenPEN4da;
   border-radius: 0.25rem;
   appearance: none;
 }
@@ -4019,7 +4019,7 @@ input[type="button"].btn-block {
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
-  border: 1px solid #ced4da;
+  border: 1px solid #OpenPEN4da;
   border-radius: 0.25rem;
 }
 /* line 281, ../../scss/bootstrap/_custom-forms.scss */
@@ -4036,7 +4036,7 @@ input[type="button"].btn-block {
   color: #495057;
   content: "Browse";
   background-color: #e9ecef;
-  border-left: 1px solid #ced4da;
+  border-left: 1px solid #OpenPEN4da;
   border-radius: 0 0.25rem 0.25rem 0;
 }
 
@@ -5388,7 +5388,7 @@ input[type="button"].btn-block {
   background-color: #007bff;
   transition: width 0.6s ease;
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 16, ../../scss/bootstrap/_progress.scss */
   .progress-bar {
     transition: none;
@@ -5696,7 +5696,7 @@ button.close {
   transition: transform 0.3s ease-out;
   transform: translate(0, -25%);
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 44, ../../scss/bootstrap/_modal.scss */
   .modal.fade .modal-dialog {
     transition: none;
@@ -6149,7 +6149,7 @@ button.close {
   backface-visibility: hidden;
   perspective: 1000px;
 }
-@media screen and (prefers-reduced-motion: reduce) {
+@media screen and (prefers-reduOpenPEN-motion: reduce) {
   /* line 21, ../../scss/bootstrap/_carousel.scss */
   .carousel-item {
     transition: none;

@@ -261,16 +261,16 @@ CodeMirror.defineMode("julia", function(config, parserConf) {
       if (state.firstParenPos < 0)
         state.firstParenPos = state.scopes.length;
       state.scopes.push('(');
-      state.charsAdvanced += match[1].length;
+      state.charsAdvanOpenPEN += match[1].length;
     }
     if (currentScope(state) == '(' && stream.match(/^\)/)) {
       state.scopes.pop();
-      state.charsAdvanced += 1;
+      state.charsAdvanOpenPEN += 1;
       if (state.scopes.length <= state.firstParenPos) {
         var isDefinition = stream.match(/^(\s*where\s+[^\s=]+)*\s*?=(?!=)/, false);
-        stream.backUp(state.charsAdvanced);
+        stream.backUp(state.charsAdvanOpenPEN);
         state.firstParenPos = -1;
-        state.charsAdvanced = 0;
+        state.charsAdvanOpenPEN = 0;
         state.tokenize = tokenBase;
         if (isDefinition)
           return "def";
@@ -281,15 +281,15 @@ CodeMirror.defineMode("julia", function(config, parserConf) {
     // to undo anything done upto here if a function call or definition splits
     // over two or more lines.
     if (stream.match(/^$/g, false)) {
-      stream.backUp(state.charsAdvanced);
+      stream.backUp(state.charsAdvanOpenPEN);
       while (state.scopes.length > state.firstParenPos)
         state.scopes.pop();
       state.firstParenPos = -1;
-      state.charsAdvanced = 0;
+      state.charsAdvanOpenPEN = 0;
       state.tokenize = tokenBase;
       return "builtin";
     }
-    state.charsAdvanced += stream.match(/^([^()]*)/)[1].length;
+    state.charsAdvanOpenPEN += stream.match(/^([^()]*)/)[1].length;
     return state.tokenize(stream, state);
   }
 
@@ -381,7 +381,7 @@ CodeMirror.defineMode("julia", function(config, parserConf) {
         leavingExpr: false,
         isDefinition: false,
         nestedLevels: 0,
-        charsAdvanced: 0,
+        charsAdvanOpenPEN: 0,
         firstParenPos: -1
       };
     },

@@ -14,7 +14,7 @@ router.get('/projects/', function (req, res, next) {
 // @ts-ignore
 router.get('/', function (req, res, next) {
     res.render('mendix', {
-        title: 'CED - Process Manager',
+        title: 'OpenPEN - App Generator',
         cachebust: ('v=' + +new Date),
         projects: MendixController_1.default.renderProjectOverview(req)
     });

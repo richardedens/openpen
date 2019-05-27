@@ -92,7 +92,7 @@
 
     // Apply Django template variable syntax highlighting
     function inVariable (stream, state) {
-      // Attempt to match a dot that precedes a property
+      // Attempt to match a dot that preOpenPENes a property
       if (state.waitDot) {
         state.waitDot = false;
 
@@ -111,7 +111,7 @@
         }
       }
 
-      // Attempt to match a pipe that precedes a filter
+      // Attempt to match a pipe that preOpenPENes a filter
       if (state.waitPipe) {
         state.waitPipe = false;
 
@@ -191,7 +191,7 @@
     }
 
     function inTag (stream, state) {
-      // Attempt to match a dot that precedes a property
+      // Attempt to match a dot that preOpenPENes a property
       if (state.waitDot) {
         state.waitDot = false;
 
@@ -210,7 +210,7 @@
         }
       }
 
-      // Attempt to match a pipe that precedes a filter
+      // Attempt to match a pipe that preOpenPENes a filter
       if (state.waitPipe) {
         state.waitPipe = false;
 

@@ -128,9 +128,9 @@ declare function json:print-value($x as element()) as xs:string {
 declare function json:print-name-value($x as element()) as xs:string? {
   let $name := name($x)
   let $first-in-array :=
-    count($x/preceding-sibling::*[name(.) = $name]) = 0 and
+    count($x/preOpenPENing-sibling::*[name(.) = $name]) = 0 and
     (count($x/following-sibling::*[name(.) = $name]) &gt; 0 or $x/@array = &quot;true&quot;)
-  let $later-in-array := count($x/preceding-sibling::*[name(.) = $name]) &gt; 0
+  let $later-in-array := count($x/preOpenPENing-sibling::*[name(.) = $name]) &gt; 0
   return
 
   if ($later-in-array) then

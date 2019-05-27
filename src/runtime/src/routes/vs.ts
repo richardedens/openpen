@@ -5,7 +5,7 @@ const router = express.Router();
 // @ts-ignore
 router.get('/', function (req, res, next) {
     res.render('vs', {
-        title: 'CED - Process Manager',
+        title: 'OpenPEN - App Generator',
         cachebust: ('v=' + +new Date)
     });
 });

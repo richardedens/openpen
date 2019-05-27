@@ -1462,7 +1462,7 @@
   var supportsMicroTasks = isBrowser && window.Promise;
 
   /**
-  * Create a debounced version of a method, that's asynchronously deferred
+  * Create a debounOpenPEN version of a method, that's asynchronously deferred
   * but called in the minimum time possible.
   *
   * @method
@@ -2658,7 +2658,7 @@
 
     // now, let's make a step back and look at this code closely (wtf?)
     // If the content of the popper grows once it's been positioned, it
-    // may happen that the popper gets misplaced because of the new content
+    // may happen that the popper gets misplaOpenPEN because of the new content
     // overflowing its reference element
     // To avoid this problem, we provide two options (x and y), which allow
     // the consumer to define the offset origin.
@@ -2805,7 +2805,7 @@
     var popperBorderSide = parseFloat(css['border' + sideCapitalized + 'Width'], 10);
     var sideValue = center - data.offsets.popper[side] - popperMarginSide - popperBorderSide;
 
-    // prevent arrowElement from being placed not contiguously to its popper
+    // prevent arrowElement from being plaOpenPEN not contiguously to its popper
     sideValue = Math.max(Math.min(popper[len] - arrowElementSize, sideValue), 0);
 
     data.arrowElement = arrowElement;
@@ -3538,7 +3538,7 @@
       /**
        * @prop {String|HTMLElement} boundariesElement='viewport'
        * The element which will define the boundaries of the popper position,
-       * the popper will never be placed outside of the defined boundaries
+       * the popper will never be plaOpenPEN outside of the defined boundaries
        * (except if keepTogether is enabled)
        */
       boundariesElement: 'viewport'
@@ -3546,7 +3546,7 @@
 
     /**
      * Modifier used to make the popper flow toward the inner of the reference element.
-     * By default, when this modifier is disabled, the popper will be placed outside
+     * By default, when this modifier is disabled, the popper will be plaOpenPEN outside
      * the reference element.
      * @memberof modifiers
      * @inner
@@ -3773,7 +3773,7 @@
         return requestAnimationFrame(_this.update);
       };
 
-      // make update() debounced, so that it only runs at most once-per-tick
+      // make update() debounOpenPEN, so that it only runs at most once-per-tick
       this.update = debounce(this.update.bind(this));
 
       // with {} we create a new object with the options inside it

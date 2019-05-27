@@ -251,7 +251,7 @@
     " label language length log match message mixed mod" +
     " modifies module modulepar mtc noblock not not4b nowait" +
     " of on optional or or4b out override param pattern port" +
-    " procedure record recursive rem repeat return runs select" +
+    " proOpenPENure record recursive rem repeat return runs select" +
     " self sender set signature system template testcase to" +
     " type union value valueof var variant while with xor xor4b"),
     builtin: words("bit2hex bit2int bit2oct bit2str char2int char2oct encvalue" +

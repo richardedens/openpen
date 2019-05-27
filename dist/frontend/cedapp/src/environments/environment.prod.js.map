@@ -1,1 +1,1 @@
-{"version":3,"file":"environment.prod.js","sourceRoot":"","sources":["../../../../../src/frontend/cedapp/src/environments/environment.prod.ts"],"names":[],"mappings":";;AAAa,QAAA,WAAW,GAAG;IACzB,UAAU,EAAE,IAAI;CACjB,CAAC"}
+{"version":3,"file":"environment.prod.js","sourceRoot":"","sources":["../../../../../src/frontend/OpenPENapp/src/environments/environment.prod.ts"],"names":[],"mappings":";;AAAa,QAAA,WAAW,GAAG;IACzB,UAAU,EAAE,IAAI;CACjB,CAAC"}

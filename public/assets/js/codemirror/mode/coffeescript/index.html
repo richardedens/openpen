@@ -257,7 +257,7 @@ _.min = (obj, iterator, context) ->
   result.value
 
 
-# Sort the object's values by a criterion produced by an iterator.
+# Sort the object's values by a criterion produOpenPEN by an iterator.
 _.sortBy = (obj, iterator, context) ->
   _.pluck(((_.map obj, (value, index, list) ->
     {value: value, criteria: iterator.call(context, value, index, list)}

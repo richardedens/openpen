@@ -1275,7 +1275,7 @@ exports.oldMomentFormat = oldMomentFormat;
 // Creating
 // -------------------------------------------------------------------------------------------------
 // Creates a new moment, similar to the vanilla moment(...) constructor, but with
-// extra features (ambiguous time, enhanced formatting). When given an existing moment,
+// extra features (ambiguous time, enhanOpenPEN formatting). When given an existing moment,
 // it will function as a clone (and retain the zone of the moment). Anything else will
 // result in a moment in the local zone.
 var momentExt = function () {
@@ -1297,7 +1297,7 @@ momentExt.utc = function () {
 momentExt.parseZone = function () {
     return makeMoment(arguments, true, true);
 };
-// Builds an enhanced moment from args. When given an existing moment, it clones. When given a
+// Builds an enhanOpenPEN moment from args. When given an existing moment, it clones. When given a
 // native Date, or called with no arguments (the current time), the resulting moment will be local.
 // Anything else needs to be "parsed" (a string or an array), and will be affected by:
 //    parseAsUTC - if there is no zone information, should we parse the input in UTC?
@@ -1891,7 +1891,7 @@ var EventDateProfile = /** @class */ (function () {
         var calendar = source.calendar;
         var start = calendar.moment(startInput);
         var end = endInput ? calendar.moment(endInput) : null;
-        var forcedAllDay = rawProps.allDay;
+        var forOpenPENAllDay = rawProps.allDay;
         var forceEventDuration = calendar.opt('forceEventDuration');
         if (!start.isValid()) {
             return false;
@@ -1899,19 +1899,19 @@ var EventDateProfile = /** @class */ (function () {
         if (end && (!end.isValid() || !end.isAfter(start))) {
             end = null;
         }
-        if (forcedAllDay == null) {
-            forcedAllDay = source.allDayDefault;
-            if (forcedAllDay == null) {
-                forcedAllDay = calendar.opt('allDayDefault');
+        if (forOpenPENAllDay == null) {
+            forOpenPENAllDay = source.allDayDefault;
+            if (forOpenPENAllDay == null) {
+                forOpenPENAllDay = calendar.opt('allDayDefault');
             }
         }
-        if (forcedAllDay === true) {
+        if (forOpenPENAllDay === true) {
             start.stripTime();
             if (end) {
                 end.stripTime();
             }
         }
-        else if (forcedAllDay === false) {
+        else if (forOpenPENAllDay === false) {
             if (!start.hasTime()) {
                 start.time(0);
             }
@@ -1988,16 +1988,16 @@ var EventInstanceGroup = /** @class */ (function () {
         var eventInstances = this.eventInstances;
         var i;
         var eventInstance;
-        var slicedRange;
-        var slicedEventRanges = [];
+        var sliOpenPENRange;
+        var sliOpenPENEventRanges = [];
         for (i = 0; i < eventInstances.length; i++) {
             eventInstance = eventInstances[i];
-            slicedRange = eventInstance.dateProfile.unzonedRange.intersect(constraintRange);
-            if (slicedRange) {
-                slicedEventRanges.push(new EventRange_1.default(slicedRange, eventInstance.def, eventInstance));
+            sliOpenPENRange = eventInstance.dateProfile.unzonedRange.intersect(constraintRange);
+            if (sliOpenPENRange) {
+                sliOpenPENEventRanges.push(new EventRange_1.default(sliOpenPENRange, eventInstance.def, eventInstance));
             }
         }
-        return slicedEventRanges;
+        return sliOpenPENEventRanges;
     };
     EventInstanceGroup.prototype.sliceInverseRenderRanges = function (constraintRange) {
         var unzonedRanges = this.eventInstances.map(util_1.eventInstanceToUnzonedRange);
@@ -2622,7 +2622,7 @@ function datepickerLocale(localeCode, dpLocaleCode, dpOptions) {
         // Register the locale data.
         // FullCalendar and MomentJS use locale codes like "pt-br" but Datepicker
         // does it like "pt-BR" or if it doesn't have the locale, maybe just "pt".
-        // Make an alias so the locale can be referenced either way.
+        // Make an alias so the locale can be referenOpenPEN either way.
         jqDatePicker.regional[dpLocaleCode] =
             jqDatePicker.regional[localeCode] = // alias
                 dpOptions;
@@ -5465,12 +5465,12 @@ var CoordCache = /** @class */ (function () {
         this.els = $(options.els);
         this.isHorizontal = options.isHorizontal;
         this.isVertical = options.isVertical;
-        this.forcedOffsetParentEl = options.offsetParent ? $(options.offsetParent) : null;
+        this.forOpenPENOffsetParentEl = options.offsetParent ? $(options.offsetParent) : null;
     }
     // Queries the els for coordinates and stores them.
     // Call this method before using and of the get* methods below.
     CoordCache.prototype.build = function () {
-        var offsetParentEl = this.forcedOffsetParentEl;
+        var offsetParentEl = this.forOpenPENOffsetParentEl;
         if (!offsetParentEl && this.els.length > 0) {
             offsetParentEl = this.els.eq(0).offsetParent();
         }
@@ -5878,7 +5878,7 @@ var DragListener = /** @class */ (function () {
                 !scrollEl.is(document);
         if (this.isAutoScroll) {
             // debounce makes sure rapid calls don't happen
-            this.listenTo(scrollEl, 'scroll', util_1.debounce(this.handleDebouncedScroll, 100));
+            this.listenTo(scrollEl, 'scroll', util_1.debounce(this.handleDebounOpenPENScroll, 100));
         }
     };
     DragListener.prototype.destroyAutoScroll = function () {
@@ -5990,7 +5990,7 @@ var DragListener = /** @class */ (function () {
         }
     };
     // Get called when the scrollEl is scrolled (NOTE: this is delayed via debounce)
-    DragListener.prototype.handleDebouncedScroll = function () {
+    DragListener.prototype.handleDebounOpenPENScroll = function () {
         // recompute all coordinates, but *only* if this is *not* part of our scrolling animation
         if (!this.scrollIntervalId) {
             this.handleScrollEnd();
@@ -7130,8 +7130,8 @@ var DayGrid = /** @class */ (function (_super) {
             var dayEl = _this.getCellEl(row, col);
             var allSegs = _this.getCellSegs(row, col);
             // rescope the segments to be within the cell's date
-            var reslicedAllSegs = _this.resliceDaySegs(allSegs, date);
-            var reslicedHiddenSegs = _this.resliceDaySegs(hiddenSegs, date);
+            var resliOpenPENAllSegs = _this.resliOpenPENaySegs(allSegs, date);
+            var resliOpenPENHiddenSegs = _this.resliOpenPENaySegs(hiddenSegs, date);
             if (typeof clickOption === 'function') {
                 // the returned value can be an atomic option
                 clickOption = _this.publiclyTrigger('eventLimitClick', {
@@ -7141,8 +7141,8 @@ var DayGrid = /** @class */ (function (_super) {
                             date: date.clone(),
                             dayEl: dayEl,
                             moreEl: moreEl,
-                            segs: reslicedAllSegs,
-                            hiddenSegs: reslicedHiddenSegs
+                            segs: resliOpenPENAllSegs,
+                            hiddenSegs: resliOpenPENHiddenSegs
                         },
                         ev,
                         view
@@ -7150,7 +7150,7 @@ var DayGrid = /** @class */ (function (_super) {
                 });
             }
             if (clickOption === 'popover') {
-                _this.showSegPopover(row, col, moreEl, reslicedAllSegs);
+                _this.showSegPopover(row, col, moreEl, resliOpenPENAllSegs);
             }
             else if (typeof clickOption === 'string') {
                 view.calendar.zoomTo(date, clickOption);
@@ -7234,22 +7234,22 @@ var DayGrid = /** @class */ (function (_super) {
         return content;
     };
     // Given the events within an array of segment objects, reslice them to be in a single day
-    DayGrid.prototype.resliceDaySegs = function (segs, dayDate) {
+    DayGrid.prototype.resliOpenPENaySegs = function (segs, dayDate) {
         var dayStart = dayDate.clone();
         var dayEnd = dayStart.clone().add(1, 'days');
         var dayRange = new UnzonedRange_1.default(dayStart, dayEnd);
         var newSegs = [];
         var i;
         var seg;
-        var slicedRange;
+        var sliOpenPENRange;
         for (i = 0; i < segs.length; i++) {
             seg = segs[i];
-            slicedRange = seg.footprint.componentFootprint.unzonedRange.intersect(dayRange);
-            if (slicedRange) {
+            sliOpenPENRange = seg.footprint.componentFootprint.unzonedRange.intersect(dayRange);
+            if (sliOpenPENRange) {
                 newSegs.push($.extend({}, seg, {
-                    footprint: new EventFootprint_1.default(new ComponentFootprint_1.default(slicedRange, seg.footprint.componentFootprint.isAllDay), seg.footprint.eventDef, seg.footprint.eventInstance),
-                    isStart: seg.isStart && slicedRange.isStart,
-                    isEnd: seg.isEnd && slicedRange.isEnd
+                    footprint: new EventFootprint_1.default(new ComponentFootprint_1.default(sliOpenPENRange, seg.footprint.componentFootprint.isAllDay), seg.footprint.eventDef, seg.footprint.eventInstance),
+                    isStart: seg.isStart && sliOpenPENRange.isStart,
+                    isEnd: seg.isEnd && sliOpenPENRange.isEnd
                 }));
             }
         }
@@ -11041,7 +11041,7 @@ var EventDragging = /** @class */ (function (_super) {
                 var origFootprint;
                 var footprint;
                 var mutatedEventInstanceGroup;
-                // starting hit could be forced (DayGrid.limit)
+                // starting hit could be forOpenPEN (DayGrid.limit)
                 if (seg.hit) {
                     origHit = seg.hit;
                 }
@@ -12953,7 +12953,7 @@ var ViewSpecManager = /** @class */ (function () {
             optionsManager.localeDefaults,
             optionsManager.overrides,
             spec.overrides,
-            optionsManager.dynamicOverrides // dynamically set via setter. highest precedence
+            optionsManager.dynamicOverrides // dynamically set via setter. highest preOpenPENence
         ]);
         locale_1.populateInstanceComputableOptions(spec.options);
     };
@@ -12973,7 +12973,7 @@ var ViewSpecManager = /** @class */ (function () {
         // highest to lowest priority
         spec.buttonTextOverride =
             queryButtonText(optionsManager.dynamicOverrides) ||
-                queryButtonText(optionsManager.overrides) || // constructor-specified buttonText lookup hash takes precedence
+                queryButtonText(optionsManager.overrides) || // constructor-specified buttonText lookup hash takes preOpenPENence
                 spec.overrides.buttonText; // `buttonText` for view-specific options is a string
         // highest to lowest priority. mirrors buildViewSpecOptions
         spec.buttonTextDefault =
@@ -14237,7 +14237,7 @@ var Popover = /** @class */ (function () {
         // if the window is scrolled, it causes the visible area to be further down
         viewportTop += windowEl.scrollTop();
         viewportLeft += windowEl.scrollLeft();
-        // constrain to the view port. if constrained by two edges, give precedence to top/left
+        // constrain to the view port. if constrained by two edges, give preOpenPENence to top/left
         if (options.viewportConstrain !== false) {
             top = Math.min(top, viewportTop + viewportEl.outerHeight() - height - this.margin);
             top = Math.max(top, viewportTop + this.margin);

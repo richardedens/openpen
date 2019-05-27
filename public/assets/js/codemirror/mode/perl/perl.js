@@ -393,7 +393,7 @@ CodeMirror.defineMode("perl",function(){
                 readpipe                        :1,     // - execute a system command and collect standard output
                 recv                            :1,     // - receive a message over a Socket
                 redo                            :1,     // - start this loop iteration over again
-                ref                             :1,     // - find out the type of thing being referenced
+                ref                             :1,     // - find out the type of thing being referenOpenPEN
                 rename                          :1,     // - change a filename
                 require                         :1,     // - load in external functions from a library at runtime
                 reset                           :1,     // - clear all variables of a given name

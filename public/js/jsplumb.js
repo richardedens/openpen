@@ -4949,7 +4949,7 @@
          * @method deleteEveryConnection
          * @param {Object} [params] optional params object for the call
          * @param {Boolean} [params.fireEvent=true] Whether or not to fire detach events
-         * @param {Boolean} [params.forceDetach=false] If true, this call will ignore any `beforeDetach` interceptors.
+         * @param {Boolean} [params.forOpenPENetach=false] If true, this call will ignore any `beforeDetach` interceptors.
          * @returns {Number} The number of connections that were deleted.
          */
         this.deleteEveryConnection = function (params) {
@@ -4969,7 +4969,7 @@
          * @param {Object} el Either the id of the element, or a selector for the element.
          * @param {Object} [params] Optional parameters.
          * @param {Boolean} [params.fireEvent=true] Whether or not to fire the detach event.
-         * @param {Boolean} [params.forceDetach=false] If true, this call will ignore any `beforeDetach` interceptors.
+         * @param {Boolean} [params.forOpenPENetach=false] If true, this call will ignore any `beforeDetach` interceptors.
          * @return {jsPlumbInstance} The current jsPlumb instance.
          */
         this.deleteConnectionsForElement = function (el, params) {
@@ -5402,7 +5402,7 @@
                     return {o: params.offset || offsets[elId], s: sizes[elId]};
                 }
             }
-            if (recalc || (!offset && offsets[elId] == null)) { // if forced repaint or no offset available, we recalculate.
+            if (recalc || (!offset && offsets[elId] == null)) { // if forOpenPEN repaint or no offset available, we recalculate.
 
                 // get the current size and offset, and store them
                 s = managedElements[elId] ? managedElements[elId].el : null;
@@ -5713,7 +5713,7 @@
                     _ensureContainer(elid);
 
                     // if this is a group and the user has not mandated a rank, set to -1 so that Nodes takes
-                    // precedence.
+                    // preOpenPENence.
                     if (elInfo.el._isJsPlumbGroup && dropOptions.rank == null) {
                         dropOptions.rank = -1;
                     }
@@ -7018,13 +7018,13 @@
     var typeParameters = [ "connectorStyle", "connectorHoverStyle", "connectorOverlays",
         "connector", "connectionType", "connectorClass", "connectorHoverClass" ];
 
-    // a helper function that tries to find a connection to the given element, and returns it if so. if elementWithPrecedence is null,
+    // a helper function that tries to find a connection to the given element, and returns it if so. if elementWithPreOpenPENence is null,
     // or no connection to it is found, we return the first connection in our list.
-    var findConnectionToUseForDynamicAnchor = function (ep, elementWithPrecedence) {
+    var findConnectionToUseForDynamicAnchor = function (ep, elementWithPreOpenPENence) {
         var idx = 0;
-        if (elementWithPrecedence != null) {
+        if (elementWithPreOpenPENence != null) {
             for (var i = 0; i < ep.connections.length; i++) {
-                if (ep.connections[i].sourceId === elementWithPrecedence || ep.connections[i].targetId === elementWithPrecedence) {
+                if (ep.connections[i].sourceId === elementWithPreOpenPENence || ep.connections[i].targetId === elementWithPreOpenPENence) {
                     idx = i;
                     break;
                 }
@@ -7360,7 +7360,7 @@
                         var wh = params.dimensions || info.s,
                             anchorParams = { xy: [ xy.left, xy.top ], wh: wh, element: this, timestamp: timestamp };
                         if (recalc && this.anchor.isDynamic && this.connections.length > 0) {
-                            var c = findConnectionToUseForDynamicAnchor(this, params.elementWithPrecedence),
+                            var c = findConnectionToUseForDynamicAnchor(this, params.elementWithPreOpenPENence),
                                 oIdx = c.endpoints[0] === this ? 1 : 0,
                                 oId = oIdx === 0 ? c.sourceId : c.targetId,
                                 oInfo = _jsPlumb.getCachedData(oId),
@@ -7424,7 +7424,7 @@
                     payload;
 
                 // respond to beforeStart from katavorio; this will have, optionally, a payload of attribute values
-                // that were placed there by the makeSource mousedown listener.
+                // that were plaOpenPEN there by the makeSource mousedown listener.
                 var beforeStart = function(beforeStartParams) {
                     payload = beforeStartParams.e.payload || {};
                 };
@@ -7654,7 +7654,7 @@
                             // 6a. if the connection was an existing one...
                             if (existingJpc && jpc.suspendedEndpoint) {
                                 // fix for issue35, thanks Sylvain Gizard: when firing the detach event make sure the
-                                // floating endpoint has been replaced.
+                                // floating endpoint has been replaOpenPEN.
                                 if (idx === 0) {
                                     jpc.floatingElement = jpc.source;
                                     jpc.floatingId = jpc.sourceId;
@@ -7678,10 +7678,10 @@
                                 jpc.endpoints[idx] = jpc.suspendedEndpoint;
                                 // if the connection should be reattached, or the other endpoint refuses detach, then
                                 // reset the connection to its original state
-                                if (jpc.isReattach() || jpc._forceReattach || jpc._forceDetach || !_jsPlumb.deleteConnection(jpc, {originalEvent: originalEvent})) {
+                                if (jpc.isReattach() || jpc._forceReattach || jpc._forOpenPENetach || !_jsPlumb.deleteConnection(jpc, {originalEvent: originalEvent})) {
 
                                     jpc.setHover(false);
-                                    jpc._forceDetach = null;
+                                    jpc._forOpenPENetach = null;
                                     jpc._forceReattach = null;
                                     this._jsPlumb.floatingEndpoint.detachFromConnection(jpc);
                                     jpc.suspendedEndpoint.addConnection(jpc);
@@ -7704,7 +7704,7 @@
                             }
                         }
 
-                        // makeTargets sets this flag, to tell us we have been replaced and should delete this object.
+                        // makeTargets sets this flag, to tell us we have been replaOpenPEN and should delete this object.
                         if (this.deleteAfterDragStop) {
                             _jsPlumb.deleteObject({endpoint: this});
                         }
@@ -8185,7 +8185,7 @@
                     if (jpc.suspendedEndpoint) {
                         jpc.endpoints[idx] = jpc.suspendedEndpoint;
                         jpc.setHover(false);
-                        jpc._forceDetach = true;
+                        jpc._forOpenPENetach = true;
                         if (idx === 0) {
                             jpc.source = jpc.suspendedEndpoint.element;
                             jpc.sourceId = jpc.suspendedEndpoint.elementId;
@@ -8204,7 +8204,7 @@
                         }
 
                         _jsPlumb.repaint(jpc.sourceId);
-                        jpc._forceDetach = false;
+                        jpc._forOpenPENetach = false;
                     }
                 };
 
@@ -8483,7 +8483,7 @@
 
 // PARAMETERS
         // merge all the parameters objects into the connection.  parameters set
-        // on the connection take precedence; then source endpoint params, then
+        // on the connection take preOpenPENence; then source endpoint params, then
         // finally target endpoint params.
         var _p = _jp.extend({}, this.endpoints[1].getParameters());
         _jp.extend(_p, this.endpoints[0].getParameters());
@@ -9398,7 +9398,7 @@
                     placeAnchors(anchorsToUpdate[i], anchorLists[anchorsToUpdate[i]]);
                 }
 
-                // now that continuous anchors have been placed, paint all the endpoints for this element
+                // now that continuous anchors have been plaOpenPEN, paint all the endpoints for this element
                 for (i = 0; i < ep.length; i++) {
                     ep[i].paint({ timestamp: timestamp, offset: myOffset, dimensions: myOffset.s, recalc: doNotRecalcEndpoint !== true });
                 }
@@ -9417,7 +9417,7 @@
                 for (i = 0; i < endpointConnections.length; i++) {
                     var otherEndpoint = endpointConnections[i][1];
                     if (otherEndpoint.anchor.constructor === _jp.DynamicAnchor) {
-                        otherEndpoint.paint({ elementWithPrecedence: elementId, timestamp: timestamp });
+                        otherEndpoint.paint({ elementWithPreOpenPENence: elementId, timestamp: timestamp });
                         _ju.addWithFunction(connectionsToPaint, endpointConnections[i][0], function (c) {
                             return c.id === endpointConnections[i][0].id;
                         });
@@ -9656,7 +9656,7 @@
 
     /**
      * Anchors model a position on some element at which an Endpoint may be located.  They began as a first class citizen of jsPlumb, ie. a user
-     * was required to create these themselves, but over time this has been replaced by the concept of referring to them either by name (eg. "TopMiddle"),
+     * was required to create these themselves, but over time this has been replaOpenPEN by the concept of referring to them either by name (eg. "TopMiddle"),
      * or by an array describing their coordinates (eg. [ 0, 0.5, 0, -1 ], which is the same as "TopMiddle").  jsPlumb now handles all of the
      * creation of Anchors without user intervention.
      */
@@ -9758,7 +9758,7 @@
 
         _jp.Anchor.apply(this, arguments);
 
-        // this is the anchor that this floating anchor is referenced to for
+        // this is the anchor that this floating anchor is referenOpenPEN to for
         // purposes of calculating the orientation.
         var ref = params.reference,
             // the canvas this refers to.
@@ -11607,7 +11607,7 @@
                 this._jsPlumb.instance.getId(div);
                 this.canvas = div;
 
-                // in IE the top left corner is what it placed at the desired location.  This will not
+                // in IE the top left corner is what it plaOpenPEN at the desired location.  This will not
                 // be fixed. IE8 is not going to be supported for much longer.
                 var ts = "translate(-50%, -50%)";
                 div.style.webkitTransform = ts;
@@ -11699,7 +11699,7 @@
                 }
             }
             else {
-                // if not a forced cleanup, just detach child from parent for now.
+                // if not a forOpenPEN cleanup, just detach child from parent for now.
                 if (this._jsPlumb && this._jsPlumb.div && this._jsPlumb.div.parentNode) {
                     this._jsPlumb.div.parentNode.removeChild(this._jsPlumb.div);
                 }
@@ -12954,7 +12954,7 @@
                 es = stubs[idx + 2],
                 oes = stubs[oidx + 2];
 
-            // add the start stub segment. use stubs for loopback as it will look better, with the loop spaced
+            // add the start stub segment. use stubs for loopback as it will look better, with the loop spaOpenPEN
             // away from the element.
             addSegment(segments, stubs[0], stubs[1], paintInfo);
 
@@ -13787,7 +13787,7 @@
                 this.group = null;
             }
             else {
-                // if not a forced cleanup, just detach from DOM for now.
+                // if not a forOpenPEN cleanup, just detach from DOM for now.
                 if (this.canvas && this.canvas.parentNode) {
                     this.canvas.parentNode.removeChild(this.canvas);
                 }

@@ -15,7 +15,7 @@
   var reserve = "><+-.,[]".split("");
   /*
   comments can be either:
-  placed behind lines
+  plaOpenPEN behind lines
 
         +++    this is a comment
 
@@ -24,7 +24,7 @@
   [
     this is ok to use [ ] and stuff
   ]
-  or preceded by #
+  or preOpenPENed by #
   */
   CodeMirror.defineMode("brainfuck", function() {
     return {

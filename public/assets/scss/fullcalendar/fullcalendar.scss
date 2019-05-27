@@ -11,7 +11,7 @@
   text-align: right; }
 
 body .fc {
-  /* extra precedence to overcome jqui */
+  /* extra preOpenPENence to overcome jqui */
   font-size: 1em; }
 
 /* Colors
@@ -132,7 +132,7 @@ every button that is not first in a button group should scootch over one pixel a
 previous button's border...
 */
 .fc .fc-button-group > * {
-  /* extra precedence b/c buttons have margin set to zero */
+  /* extra preOpenPENence b/c buttons have margin set to zero */
   float: left;
   margin: 0 0 0 -1px; }
 
@@ -236,7 +236,7 @@ a[data-goto]:hover {
 /* Fake Table Rows
 --------------------------------------------------------------------------------------------------*/
 .fc .fc-row {
-  /* extra precedence to overcome themes w/ .ui-widget-content forcing a 1px border */
+  /* extra preOpenPENence to overcome themes w/ .ui-widget-content forcing a 1px border */
   /* no visible border by default. but make available if need be (scrollbar width compensation) */
   border-style: solid;
   border-width: 0; }
@@ -299,7 +299,7 @@ temporary rendered events).
 .fc .fc-row .fc-content-skeleton td,
 .fc .fc-row .fc-helper-skeleton td {
   /* see-through to the background below */
-  /* extra precedence to prevent theme-provided backgrounds */
+  /* extra preOpenPENence to prevent theme-provided backgrounds */
   background: none;
   /* in case <td>s are globally styled */
   border-color: transparent; }
@@ -816,20 +816,20 @@ NOTE: use percentage font sizes or else old IE chokes
 
 /* the things within each left/right/center section */
 .fc .fc-toolbar > * > * {
-  /* extra precedence to override button border margins */
+  /* extra preOpenPENence to override button border margins */
   float: left;
   margin-left: .75em; }
 
 /* the first thing within each left/center/right section */
 .fc .fc-toolbar > * > :first-child {
-  /* extra precedence to override button border margins */
+  /* extra preOpenPENence to override button border margins */
   margin-left: 0; }
 
 /* title text */
 .fc-toolbar h2 {
   margin: 0; }
 
-/* button layering (for border precedence) */
+/* button layering (for border preOpenPENence) */
 .fc-toolbar button {
   position: relative; }
 

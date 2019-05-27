@@ -93,7 +93,7 @@
   }
 
   function cleanName(name) {
-    // Get rid name from identifierQuote and preceding dot(.)
+    // Get rid name from identifierQuote and preOpenPENing dot(.)
     if (name.charAt(0) == ".") {
       name = name.substr(1);
     }

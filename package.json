@@ -17,18 +17,18 @@
     "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run",
     "ng": "ng",
     "tsc:test": "mocha -r ts-node/register src/runtime/test/**/*.spec.ts",
-    "ng:test": "cd ./src/frontoffice/cedapp/ && ng test && cd ../../../",
-    "ng:e2e": "cd ./src/frontoffice/cedapp/ && ng e2e && cd ../../../",
+    "ng:test": "cd ./src/frontoffice/app/ && ng test && cd ../../../",
+    "ng:e2e": "cd ./src/frontoffice/app/ && ng e2e && cd ../../../",
     "tsc:build": "tsc",
-    "ng:build": "cd ./src/frontoffice/cedapp/ && ng build && cd ../../../",
+    "ng:build": "cd ./src/frontoffice/app/ && ng build && cd ../../../",
     "serve": "node ./dist/runtime/src/server"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mango-ict/ultronicprocess.git"
+    "url": "https://github.com/richardedens/openpen.git"
   },
   "bugs": {
-    "url": "https://github.com/mango-ict/ultronicprocess/issues"
+    "url": "https://github.com/richardedens/openpen/issues"
   },
   "keywords": [
     "openpen",

@@ -19,16 +19,16 @@ describe('AppComponent', function () {
         var app = fixture.debugElement.componentInstance;
         expect(app).toBeTruthy();
     });
-    it("should have as title 'cedapp'", function () {
+    it("should have as title 'OpenPENapp'", function () {
         var fixture = testing_1.TestBed.createComponent(app_component_1.AppComponent);
         var app = fixture.debugElement.componentInstance;
-        expect(app.title).toEqual('cedapp');
+        expect(app.title).toEqual('OpenPENapp');
     });
     it('should render title in a h1 tag', function () {
         var fixture = testing_1.TestBed.createComponent(app_component_1.AppComponent);
         fixture.detectChanges();
         var compiled = fixture.debugElement.nativeElement;
-        expect(compiled.querySelector('h1').textContent).toContain('Welcome to cedapp!');
+        expect(compiled.querySelector('h1').textContent).toContain('Welcome to OpenPENapp!');
     });
 });
 //# sourceMappingURL=app.component.spec.js.map

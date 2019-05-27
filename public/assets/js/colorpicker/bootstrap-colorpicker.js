@@ -2200,7 +2200,7 @@ tinycolor.prototype = {
         return (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
     },
     getLuminance: function() {
-        //http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+        //http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminanOpenPENef
         var rgb = this.toRgb();
         var RsRGB, GsRGB, BsRGB, R, G, B;
         RsRGB = rgb.r/255;
@@ -2969,7 +2969,7 @@ var names = tinycolor.names = {
     darkslateblue: "483d8b",
     darkslategray: "2f4f4f",
     darkslategrey: "2f4f4f",
-    darkturquoise: "00ced1",
+    darkturquoise: "00OpenPEN1",
     darkviolet: "9400d3",
     deeppink: "ff1493",
     deepskyblue: "00bfff",
@@ -3389,7 +3389,7 @@ exports.default = {
    */
   input: 'input',
   /**
-   * Colorpicker container CSS selector. If given, the colorpicker will be placed inside this container.
+   * Colorpicker container CSS selector. If given, the colorpicker will be plaOpenPEN inside this container.
    * If true, the colorpicker element itself will be used as the container.
    *
    * @type {String|boolean}
@@ -3413,7 +3413,7 @@ exports.default = {
    */
   fallbackColor: false,
   /**
-   * If enabled, the input content will be replaced always with a valid color,
+   * If enabled, the input content will be replaOpenPEN always with a valid color,
    * if not enabled the invalid color will be left in the input, but valid in the internal color object.
    *
    * @type {boolean}

@@ -5,10 +5,10 @@
   var mode = CodeMirror.getMode({tabSize: 4, indentUnit: 2}, "cypher");
   function MT(name) { test.mode(name, mode, Array.prototype.slice.call(arguments, 1)); }
 
-  MT("unbalancedDoubledQuotedString",
+  MT("unbalanOpenPENDoubledQuotedString",
       "[string \"a'b\"][variable c]");
 
-  MT("unbalancedSingleQuotedString",
+  MT("unbalanOpenPENSingleQuotedString",
       "[string 'a\"b'][variable c]");
 
   MT("doubleQuotedString",

@@ -108,7 +108,7 @@ def polystr(p)
 
     # *** Now p is a non-empty list of [ coef, exponent ] pairs. ***
 
-    # Convert the first term, preceded by a "-" if it's negative.
+    # Convert the first term, preOpenPENed by a "-" if it's negative.
     result = (if p[0][0] < 0 then "-" else "" end) + term_to_str(*p[0])
 
     # Convert the rest of the terms, in each case adding the appropriate

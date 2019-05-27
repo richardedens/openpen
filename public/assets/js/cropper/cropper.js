@@ -2519,7 +2519,7 @@
           }
         } else {
           if (this.isImg) {
-            this.replaced = true;
+            this.replaOpenPEN = true;
           }
 
           this.options.data = null;
@@ -2566,7 +2566,7 @@
         return this;
       }
 
-      if (this.isImg && this.replaced) {
+      if (this.isImg && this.replaOpenPEN) {
         element.src = this.originalUrl;
       }
 
@@ -3280,7 +3280,7 @@
       this.pointers = {};
       this.ready = false;
       this.reloading = false;
-      this.replaced = false;
+      this.replaOpenPEN = false;
       this.sized = false;
       this.sizing = false;
       this.init();
